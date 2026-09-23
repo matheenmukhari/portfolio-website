@@ -135,7 +135,7 @@ export default function IndexExperience() {
   }, []);
 
   return (
-    <div ref={root}>
+    <div ref={root} className="[overflow-x:clip]">
       {/* ------------------------------- hero ------------------------------- */}
         <section className="page-x relative isolate overflow-hidden flex h-[100svh] flex-col justify-between pt-[var(--spacing-page)] pb-[calc(var(--spacing-page)+2.5rem)]">
         <HeroReveal src="/matheen-hero.webp" />
@@ -155,12 +155,12 @@ export default function IndexExperience() {
             href="https://wdawards.com/web/matheen-bukhari"
             target="_blank"
             rel="noopener noreferrer"
-            className="md:absolute md:right-[var(--spacing-page)] md:top-[18svh]"
+            className="block md:absolute md:right-[var(--spacing-page)] md:top-[18svh]"
           >
             <img
               src="/media/wd-award-nominee-dark.svg"
               alt="WD Award Nominee"
-              className="h-[80px] w-auto mt-6 md:mt-0 md:h-[25svh]"
+              className="h-[80px] w-auto max-w-full mt-6 md:mt-0 md:h-[25svh] md:max-w-none"
             />
           </a>
         </div>
