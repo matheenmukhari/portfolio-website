@@ -173,12 +173,12 @@ export default function IndexExperience() {
           <p className="type-micro col-span-7 md:col-span-3 md:col-start-8">
             Twenty years — Bangalore, Dubai, Manchester
           </p>
-          <p className="type-micro col-span-5 text-right md:col-span-2">Six selected projects</p>
+          <p className="type-micro col-span-5 text-right md:col-span-2">Selected projects</p>
         </div>
       </section>
 
       {/* ------------------------------ sheets ------------------------------ */}
-      {PROJECTS.slice(0, 6).map((project, i) => {
+      {PROJECTS.slice(0, 7).map((project, i) => {
         const flip = i % 2 === 1;
         return (
           /* Flex column, not an absolute band: the title row reserves its own
