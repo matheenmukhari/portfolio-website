@@ -463,6 +463,55 @@ export const PROJECTS: Project[] = [
   },
 
   {
+    slug: "creative-loop",
+    title: "Creative Loop",
+    client: "Property Launches",
+    year: "2026",
+    place: "UK / GCC / Asia",
+    categories: ["AI & Creative Tools"],
+    tags: ["Automation", "Design system", "Analytics"],
+    featured: true,
+    restricted: true,
+    summary:
+      "An AI tool that fixes the three places creative teams lose the most time: the brief, the review and the learning afterwards.",
+    brief:
+      "One tool for the brief, the review and the *learning afterwards.* ",
+    body: [
+      "Most creative waste is locked in before design starts. Requests arrive as one-line asks. Reviews turn into debates about taste. Campaign results sit in media dashboards the studio never sees. The brief is where business intent gets lost, the review is where it gets diluted, and the learning afterwards is where it should be recovered, but rarely is.",
+      "Creative Loop is built around one idea: the brief is the reference for everything that follows. The Brief Strategist interviews the requester, challenges vague answers, and produces a scored, structured brief. Creative Review checks each design against that brief, the brand guide and local ad rules, then turns five sets of stakeholder comments into one prioritised change list. The Learning Panel links results back to creative choices and writes what worked into the next brief.",
+      "AI handles the questioning, the checking and the pattern-finding. People keep the proposition, the idea and the go/no-go. That division is the whole point, the machine does the work nobody was doing, and stays out of the work that matters most.",
+    ],
+    role: ["Problem discovery", "Product design", "UX", "Design system", "AI workflow design", "Build"],
+    note: "Shown with a fictional development and sample data. No client information is used.",
+    points: [
+      "A scored brief before any design begins",
+      "Reviews measured against the goal, not opinion",
+      "Learnings that carry into every new campaign",
+    ],
+    poster: "/media/cl/poster.webp",
+    still: "/media/cl/still.webp",
+    reel: [
+      { src: "/media/cl/i1.webp", alt: "Creative Loop overview — live briefs, reviews and insights" },
+      { src: "/media/cl/i2.webp", alt: "Brief Strategist — AI-guided interview" },
+      { src: "/media/cl/i3.webp", alt: "Approved brief — objective, audience, proposition and KPI scored" },
+    ],
+    gallery: [
+      { src: "/media/cl/wide.webp", alt: "Creative Review — designs checked against brief and brand", kind: "full" },
+      { src: "/media/cl/still.webp", alt: "Feedback — five opinions merged into one change list", kind: "split" },
+      { src: "/media/cl/gallery2.webp", alt: "Learning Panel — which creative angle drove qualified leads", kind: "split" },
+      { src: "/media/cl/social.mp4", alt: "Pre-flight — nothing launches until every asset passes", kind: "full" },
+    ],
+    strip: [
+      { src: "/media/cl/slide1.webp", alt: "Dashboard detail" },
+      { src: "/media/cl/slide2.webp", alt: "Brief scoring" },
+      { src: "/media/cl/slide3.webp", alt: "Review interface" },
+      { src: "/media/cl/slide4.webp", alt: "Compliance check" },
+      { src: "/media/cl/slide5.webp", alt: "Compliance check" },
+      { src: "/media/cl/slide6.webp", alt: "Compliance check" },
+    ],
+  },
+
+  {
     slug: "check-voters-list",
     title: "VoterList Search Tool",
     client: "Self Experiment",
