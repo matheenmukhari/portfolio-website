@@ -637,6 +637,39 @@ points: [
   },
 
   {
+  slug: "ai-imagery",
+  title: "Real Assets, Reimagined",
+  client: "Self-initiated",
+  year: "2026",
+  place: "Dubai",
+  categories: ["AI Imagery"],
+  tags: ["Generative AI", "Art direction", "Photography", "CGI"],
+  summary:
+    "Everyday property, product and lifestyle images, turned into campaign visuals with AI, while the building, room or car stays true.",
+  brief:
+    "Change the light, the setting and the story. *Never the product.*",
+  body: [
+    "Each piece starts from a real asset: a drone shot, a rental listing photo, an architect's drawing or a studio car photo. AI changes the sky, the styling, the setting and the angle. The product itself stays exactly as it is, checked against the original and composited back by hand where needed.",
+  ],
+  role: ["Art direction", "AI image production", "Retouching"],
+  // TODO: if any Select Property images are included, add: credits: "Select Property imagery shown with permission"
+  poster: "/media/ai-images/poster.webp",
+  gallery: [
+    { src: "/media/ai-images/tower-before.webp", alt: "Manchester tower, Original drone shot and The same tower at golden hour", kind: "full",
+      title: "Before", caption: "Original drone shot. Flat sky, flat light." },
+
+    { src: "/media/ai-images/apartment-before.webp", alt: "Apartment with basic rental staging and apartment restaged as a luxury home ", kind: "full",
+      title: "Before", caption: "Basic rental staging." },
+
+    { src: "/media/ai-images/car-moodboard.webp", alt: "Architect's floor plan drawing and Styled marketing floor pla", kind: "full",
+      title: "Architect's drawing", caption: "Built for the builder." },
+
+    { src: "/media/ai-images/swimming-pool.webp", alt: "One car shown in five campaign directions", kind: "full",
+      title: "One car, five campaigns", caption: "One studio side profile, five directions. Concept work." },
+  ],
+},
+
+  {
     slug: "check-voters-list",
     title: "VoterList Search Tool",
     client: "Self Experiment",
