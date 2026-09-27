@@ -8,6 +8,7 @@ import { useIsoLayoutEffect } from "@/lib/hooks";
 import type { MediaItem, Project } from "@/lib/projects";
 import { openProject } from "@/lib/transition";
 import MediaGL from "./MediaGL";
+import CaseStudyDetails from "./CaseStudyDetails";
 import { accents } from "@/lib/text";
 
 function renderMedia(item: MediaItem, className?: string) {
@@ -281,13 +282,16 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
           <div className="col-span-12 flex flex-col gap-[10svh] md:col-span-5">
             {reel.map((item, i) => (
               <figure key={item.src} className="reel-item">
-               <MediaGL
-  src={item.src}
-  alt={item.alt ?? ""}
-  interactive={false}
-  className="w-full"
-  style={{ aspectRatio: item.aspect ?? "16/9" }}
-/>
+                <MediaGL
+                  src={item.src}
+                  alt={item.alt ?? ""}
+                  interactive={false}
+                  className="w-full"
+                  style={{ aspectRatio: item.aspect ?? "16/9" }}
+                />
+                {item.caption && (
+                  <figcaption className="type-micro mt-2 text-graphite">{item.caption}</figcaption>
+                )}
               </figure>
             ))}
           </div>
@@ -299,7 +303,7 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
             className={
               hasReel
                 ? "col-span-12 md:col-span-6 md:col-start-7"
-                : "col-span-12 md:col-span-9 md:col-start-2"
+                : "col-span-12"
             }
           >
             <div className={hasReel ? "md:sticky md:top-[15svh]" : ""}>
@@ -317,40 +321,79 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
                 {accents(project.brief)}
               </p>
 
-              <div className="mt-10 grid grid-cols-2 gap-x-[var(--spacing-gutter)] gap-y-7">
-                <div className="col-span-2 measure space-y-5">
-                  {project.body.map((para) => (
-                    <p key={para.slice(0, 24)}>{para}</p>
-                  ))}
-                </div>
-
-                <div>
-                  <h2 className="type-micro text-graphite">Role</h2>
-                  <ul className="mt-3 space-y-1">
-                    {project.role.map((r) => (
-                      <li key={r}>{r}</li>
+              {hasReel ? (
+                <div className="mt-10 grid grid-cols-2 gap-x-[var(--spacing-gutter)] gap-y-7">
+                  <div className="col-span-2 measure space-y-5">
+                    {project.body.map((para) => (
+                      <p key={para.slice(0, 24)}>{para}</p>
                     ))}
-                  </ul>
+                  </div>
+                  <div>
+                    <h2 className="type-micro text-graphite">Role</h2>
+                    <ul className="mt-3 space-y-1">
+                      {project.role.map((r) => (
+                        <li key={r}>{r}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    {project.credits && (
+                      <>
+                        <h2 className="type-micro text-graphite">Credits</h2>
+                        <p className="mt-3">{project.credits}</p>
+                      </>
+                    )}
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        data-cursor="link"
+                        className="type-micro mt-6 inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
+                      >
+                        {project.linkLabel ?? "Visit site"}
+                      </a>
+                    )}
+                  </div>
                 </div>
-
-                <div>
-                  {project.credits && (
-                    <>
-                      <h2 className="type-micro text-graphite">Credits</h2>
-                      <p className="mt-3">{project.credits}</p>
-                    </>
-                  )}
-                  {project.link && (
-                    <a
-                      href={project.link}
-                      data-cursor="link"
-                      className="type-micro mt-6 inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
-                    >
-                      Visit site
-                    </a>
-                  )}
+              ) : (
+                <div className="mt-10 space-y-7">
+                  <div className="space-y-5">
+                    {project.body.map((para) => (
+                      <p key={para.slice(0, 24)}>{para}</p>
+                    ))}
+                  </div>
+                  <div className="flex flex-wrap gap-x-[var(--spacing-gutter)] gap-y-4">
+                    <div>
+                      <h2 className="type-micro text-graphite">Role</h2>
+                      <ul className="mt-3 space-y-1">
+                        {project.role.map((r) => (
+                          <li key={r}>{r}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      {project.credits && (
+                        <>
+                          <h2 className="type-micro text-graphite">Credits</h2>
+                          <p className="mt-3">{project.credits}</p>
+                        </>
+                      )}
+                      {project.link && (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noreferrer"
+                          data-cursor="link"
+                          className="type-micro mt-6 inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
+                        >
+                          {project.linkLabel ?? "Visit site"}
+                        </a>
+                      )}
+                    </div>
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* The read-out tells you where the reel has got to. */}
               {hasReel && (
@@ -462,6 +505,11 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
         </section>
         )}
       </div>
+      )}
+
+      {/* ------------------------------ case study details -------------------- */}
+      {project.details && project.details.length > 0 && (
+        <CaseStudyDetails sections={project.details} />
       )}
 
       {/* ------------------------------ next project --------------------------- */}
