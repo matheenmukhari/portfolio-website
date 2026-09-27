@@ -417,13 +417,32 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
           while (i < gallery.length) {
             const item = gallery[i];
             if (item.kind !== "split") {
+              const hasMeta = !!(item.title || item.caption);
               if (i === lastFullIdx) {
                 nodes.push(
                   <section key={item.src} className="page-x relative grid grid-cols-12 items-center gap-[var(--spacing-gutter)] pb-[14svh]">
                     <div className="plate col-span-12 md:col-span-8">
                       {renderMedia(item, "aspect-[16/9] w-full")}
+                      {hasMeta && (
+                        <figcaption className="mt-3">
+                          {item.title && <span className="type-micro block font-semibold text-paper">{item.title}</span>}
+                          {item.caption && <span className="type-micro block text-paper/50">{item.caption}</span>}
+                        </figcaption>
+                      )}
                     </div>
                     {pullQuote}
+                  </section>
+                );
+              } else if (hasMeta) {
+                nodes.push(
+                  <section key={item.src} className="page-x pb-[10svh]">
+                    <div className="plate w-full">
+                      {renderMedia(item, "aspect-[16/9] w-full")}
+                      <figcaption className="mt-3">
+                        {item.title && <span className="type-micro block font-semibold text-paper">{item.title}</span>}
+                        {item.caption && <span className="type-micro block text-paper/50">{item.caption}</span>}
+                      </figcaption>
+                    </div>
                   </section>
                 );
               } else {

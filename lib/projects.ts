@@ -62,6 +62,7 @@ export type MediaItem = {
   aspect?: string;
   /** Layout hint used by the case-study composer. */
   kind?: "full" | "split" | "portrait" | "inset";
+  title?: string;
   caption?: string;
   /** Thumbnail shown while a video loads (poster frame). */
   poster?: string;
@@ -661,11 +662,11 @@ points: [
     { src: "/media/ai-images/apartment-before.webp", alt: "Apartment with basic rental staging and apartment restaged as a luxury home ", kind: "full",
       title: "Before", caption: "Basic rental staging." },
 
-    { src: "/media/ai-images/car-moodboard.webp", alt: "Architect's floor plan drawing and Styled marketing floor pla", kind: "full",
-      title: "Architect's drawing", caption: "Built for the builder." },
+    { src: "/media/ai-images/car-moodboard.webp", alt: "One car shown in five campaign directions", kind: "full",
+      title: "One car, five campaigns", caption: "One studio side profile, five directions. Concept work." },
 
     { src: "/media/ai-images/swimming-pool.webp", alt: "One car shown in five campaign directions", kind: "full",
-      title: "One car, five campaigns", caption: "One studio side profile, five directions. Concept work." },
+      title: "Lifestyle swimming pool", caption: "Realistic humaan elements with double exposure effect" },
   ],
 },
 
@@ -847,6 +848,7 @@ points: [
       },
     ],
   },
+
 
   {
     slug: "dubai-aquarium",
