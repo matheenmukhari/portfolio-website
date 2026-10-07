@@ -342,28 +342,28 @@ export const PROJECTS: Project[] = [
 
   {
     slug: "nivara",
-    title: "Nivara Bank Automation",
-    client: "Nivara",
+    title: "Nivara Studio",
+    client: "Nivara Bank (Concept)",
+    role: ["Creative Direction", "Product Design", "Web Design"],
     year: "2026",
-    place: "UK / GCC / Global",
+    place: "Dubai, UAE",
     categories: ["AI & Creative Tools"],
-    tags: ["Automation", "SEO", "Analytics", "Design system", "Web design"],
+    tags: ["Automation", "Design system", "Web design", "Analytics"],
     featured: true,
-    restricted: true,
+    restricted: false,
     summary:
-      "A GenAI creative production tool for the marketing team of Nivara fictional bank",
+      "A GenAI creative production and governance tool built for Nivara Bank to automate campaign adaptation, brand compliance, and feedback loops.",
     brief:
-      "SEO reporting nobody reads is not a reporting problem. It is a *product* problem.",
-     body: [
-      "Fully autoamted campaign adaptation tool. You upload the hero and drag a box over the product, and every format works out where the copy should go: on whichever side of the product has the most empty space. It crops around the product, sizes the overlay to the text, and writes copy for each format from a one-line prompt template, with word limits set by the format and facts taken only from the brief.",
-      "Every variant is checked before a person sees it: contrast against the brightest pixels behind each line of text, story safe zones, text size at real screen size, word counts, banned claims and prices, approved calls to action, file-size budgets, and whether the product is still visible. The Arabic story is always flagged for native review. Anything the checks miss, a designer fixes by dragging the text or the image, and the checks re-run while they drag.",
+      "Manual creative adaptation and compliance checks create bottlenecks in banking campaigns. Nivara Studio turns creative governance into an automated, error-free product workflow.",
+    body: [
+      "Fully automated campaign adaptation tool. From a single credit card brief, approved prompt templates generate localized, channel-ready creative assets across app banners, ATM screens, email headers, Instagram stories, and branch digital displays in both English and Arabic.",
+      "Every variant passes an automated Review Gate before sign-off: evaluating WCAG AA contrast against background pixels, mandatory rate disclosures, prohibited claims, language parity, and safe zones. Any rejected outputs automatically group into recurring pain points to turn feedback directly into product backlog priorities.",
     ],
-    role: ["Creative direction", "Web design", "Build oversight"],
-    note: "Built for the five minutes a week it actually gets",
+    note: "Built for automated brand compliance and multi-channel banking scale",
     points: [
-      "Eight views, from hero metrics to link opportunities",
-      "Reads Search Console and analytics data on a monthly cycle",
-      "Tracks competitor movement, then says what to do about it",
+      "Structured campaign brief with real-time readiness scoring and channel specs",
+      "Approved prompt library with dynamic variables and brand-safe templates",
+      "Automated Review Gate with compliance checklist and backlog feedback loop",
     ],
     poster: "/media/nivara/poster.webp",
     still: "/media/nivara/i3.webp",
@@ -373,7 +373,7 @@ export const PROJECTS: Project[] = [
       { src: "/media/nivara/i3.webp", alt: "Authority tracker" },
     ],
     gallery: [
-      { src: "/media/nivara/nivara", alt: "Pulse dashboard", kind: "full" },
+      { src: "/media/nivara/nivara.mp4", alt: "Pulse dashboard", kind: "full" },
       { src: "/media/nivara/wide.webp", alt: "Report view", kind: "split" },
     ],
     strip: [
