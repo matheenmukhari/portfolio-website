@@ -354,8 +354,11 @@ export const PROJECTS: Project[] = [
       "A GenAI creative production tool for the marketing team of Nivara fictional bank",
     brief:
       "SEO reporting nobody reads is not a reporting problem. It is a *product* problem.",
-    body: [
-           "Fully autoamted campaign adaptation tool. You upload the hero and drag a box over the product, and every format works out where the copy should go: on whichever side of the product has the most empty space. It crops around the product, sizes the overlay to the text, and writes copy for each format from a one-line prompt template, with word limits set by the format and facts taken only from the brief.",
+     body: [
+      "Fully autoamted campaign adaptation tool. You upload the hero and drag a box over the product, and every format works out where the copy should go: on whichever side of the product has the most empty space. It crops around the product, sizes the overlay to the text, and writes copy for each format from a one-line prompt template, with word limits set by the format and facts taken only from the brief.",
+      "Every variant is checked before a person sees it: contrast against the brightest pixels behind each line of text, story safe zones, text size at real screen size, word counts, banned claims and prices, approved calls to action, file-size budgets, and whether the product is still visible. The Arabic story is always flagged for native review. Anything the checks miss, a designer fixes by dragging the text or the image, and the checks re-run while they drag.",
+    ],
+    role: ["Creative direction", "Web design", "Build oversight"],
     note: "Built for the five minutes a week it actually gets",
     points: [
       "Eight views, from hero metrics to link opportunities",
