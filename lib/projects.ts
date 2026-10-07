@@ -340,7 +340,45 @@ export const PROJECTS: Project[] = [
     ],
   },
 
-  
+  {
+    slug: "nivara",
+    title: "Nivara Bank Automation",
+    client: "Nivara",
+    year: "2026",
+    place: "UK / GCC / Global",
+    categories: ["AI & Creative Tools"],
+    tags: ["Automation", "SEO", "Analytics", "Design system", "Web design"],
+    featured: true,
+    restricted: true,
+    summary:
+      "A GenAI creative production tool for the marketing team of Nivara fictional bank",
+    brief:
+      "SEO reporting nobody reads is not a reporting problem. It is a *product* problem.",
+    body: [
+           "Fully autoamted campaign adaptation tool. You upload the hero and drag a box over the product, and every format works out where the copy should go: on whichever side of the product has the most empty space. It crops around the product, sizes the overlay to the text, and writes copy for each format from a one-line prompt template, with word limits set by the format and facts taken only from the brief.",
+    note: "Built for the five minutes a week it actually gets",
+    points: [
+      "Eight views, from hero metrics to link opportunities",
+      "Reads Search Console and analytics data on a monthly cycle",
+      "Tracks competitor movement, then says what to do about it",
+    ],
+    poster: "/media/nivara/poster.webp",
+    still: "/media/nivara/i3.webp",
+    reel: [
+      { src: "/media/nivara/i1.webp", alt: "Dashboard overview" },
+      { src: "/media/nivara/i2.webp", alt: "Meta recommendations view" },
+      { src: "/media/nivara/i3.webp", alt: "Authority tracker" },
+    ],
+    gallery: [
+      { src: "/media/nivara/nivara", alt: "Pulse dashboard", kind: "full" },
+      { src: "/media/nivara/wide.webp", alt: "Report view", kind: "split" },
+    ],
+    strip: [
+      { src: "/media/nivara/slide1.webp", alt: "Dashboard detail"},
+      { src: "/media/nivara/slide2.webp", alt: "Content brief view" },
+      { src: "/media/nivara/slide3.webp", alt: "Technical audit view" },
+    ],
+  },
 
   {
     slug: "edition",
