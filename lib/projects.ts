@@ -373,8 +373,8 @@ export const PROJECTS: Project[] = [
       { src: "/media/nivara/i3.webp", alt: "Authority tracker" },
     ],
     gallery: [
-      { src: "/media/nivara/wide.webp", alt: "Pulse dashboard", kind: "full" },
-      { src: "/media/nivara/nivara.mp4", alt: "Report view", kind: "split" },
+      { src: "/media/nivara/nivara.mp4", alt: "Pulse dashboard", kind: "full" },
+      { src: "/media/nivara/wide.mp4", alt: "Report view", kind: "split" },
     ],
     strip: [
       { src: "/media/nivara/slide1.webp", alt: "Dashboard detail"},
