@@ -374,7 +374,7 @@ export const PROJECTS: Project[] = [
     ],
     gallery: [
       { src: "/media/nivara/wide.webp", alt: "Pulse dashboard", kind: "full" },
-      { src: "/media/nivara/nivara.mo4", alt: "Report view", kind: "split" },
+      { src: "/media/nivara/nivara.mp4", alt: "Report view", kind: "split" },
     ],
     strip: [
       { src: "/media/nivara/slide1.webp", alt: "Dashboard detail"},
