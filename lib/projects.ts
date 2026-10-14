@@ -708,10 +708,46 @@ points: [
 
     { src: "/media/ai-images/swimming-pool.webp", alt: "One car shown in five campaign directions", kind: "full",
       title: "Lifestyle swimming pool", caption: "Realistic humaan elements with double exposure effect" },
-  ],
-},
+   ],
+  },
 
   {
+  slug: "editorial-brand-mood",
+  title: "Editorial AI Photoshoot",
+  client: "Concept",
+  year: "2026",
+  place: "Dubai",
+  categories: ["AI Imagery"],
+  tags: ["Generative AI", "Art direction", "Governance", "Visual Identity"],
+  featured: true,
+  summary:
+    "An editorial visual direction exploring contrast, hard light, and tactile realism through AI image production.",
+  brief:
+    "Building high-impact pre-launch momentum demands a visual language rooted in subtlety, texture, and quiet authority over traditional high-volume imagery.",
+  body: [
+    "This project establishes a disciplined creative direction driven by hard natural lighting, deep shadow play, and subtle film grain to construct an evocative editorial aesthetic.",
+    "By defining an uncompromising style framework—anchored around stone, steam, and raw human presence—the production yields a consistent, high-fashion atmosphere across every asset without relying on conventional visual tropes."
+  ],
+  role: ["Creative Direction", "Art Direction", "AI Image Production", "Typography & Layout"],
+  note: "Self-initiated concept, executed via controlled prompt architecture and manual editorial composition.",
+  points: [
+    "Standardized prompt engineering ensuring consistent light, grain, and color depth",
+    "Master anchor-image methodology to enforce absolute visual continuity across scenes",
+    "Manual typographic design in Figma to maintain pristine editorial hierarchy"
+  ],
+
+    poster: "/media/gai/lifestyle.webp",
+    still: "/media/gai/lifestyle2.webp",
+    
+    gallery: [
+      { src: "/media/gai/lifestyle3.webp", alt: "Lifestyle Photography AI", kind: "full" },
+      { src: "/media/gai/lifestyle4.webp", alt: "Lifestyle Photography AI", kind: "full" },
+      { src: "/media/gai/lifestyle5.webp", alt: "Lifestyle Photography AI", kind: "full" },
+      { src: "/media/gai/lifestyle1.webp", alt: "Lifestyle Photography AI", kind: "full" },
+    ],
+  },
+   
+{
     slug: "check-voters-list",
     title: "VoterList Search Tool",
     client: "Self Experiment",
