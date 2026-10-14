@@ -718,7 +718,7 @@ points: [
   year: "2026",
   place: "Dubai",
   categories: ["AI Imagery"],
-  tags: ["Generative AI", "Art direction", "Governance", "Visual Identity"],
+  tags: ["Generative AI", "Art direction", "Governance", "Brand identity"],
   featured: true,
   summary:
     "An editorial visual direction exploring contrast, hard light, and tactile realism through AI image production.",
