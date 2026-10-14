@@ -728,7 +728,7 @@ points: [
     "This project establishes a disciplined creative direction driven by hard natural lighting, deep shadow play, and subtle film grain to construct an evocative editorial aesthetic.",
     "By defining an uncompromising style framework—anchored around stone, steam, and raw human presence—the production yields a consistent, high-fashion atmosphere across every asset without relying on conventional visual tropes."
   ],
-  role: ["Creative Direction", "Art Direction", "AI Image Production", "Typography & Layout"],
+  role: ["Creative governance", "Art Direction", "AI Image Production", "Re-touch"],
   note: "Self-initiated concept, executed via controlled prompt architecture and manual editorial composition.",
   points: [
     "Standardized prompt engineering ensuring consistent light, grain, and color depth",
