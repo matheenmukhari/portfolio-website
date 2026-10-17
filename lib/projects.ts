@@ -342,49 +342,6 @@ export const PROJECTS: Project[] = [
   },
 
   {
-    slug: "nivara",
-    title: "Nivara Studio",
-    client: "Nivara Bank (Concept)",
-    role: ["Creative Direction", "Product Design", "Web Design"],
-    year: "2026",
-    place: "Dubai, UAE",
-    categories: ["AI & Creative Tools"],
-    tags: ["Automation", "Design system", "Web design", "Analytics"],
-    featured: true,
-    restricted: false,
-    summary:
-      "A GenAI creative production and governance tool built for Nivara Bank to automate campaign adaptation, brand compliance, and feedback loops.",
-    brief:
-      "Manual creative adaptation and compliance checks create bottlenecks in banking campaigns. Nivara Studio turns creative governance into an automated, error-free product workflow.",
-    body: [
-      "Fully automated campaign adaptation tool. From a single credit card brief, approved prompt templates generate localized, channel-ready creative assets across app banners, ATM screens, email headers, Instagram stories, and branch digital displays in both English and Arabic.",
-      "Every variant passes an automated Review Gate before sign-off: evaluating WCAG AA contrast against background pixels, mandatory rate disclosures, prohibited claims, language parity, and safe zones. Any rejected outputs automatically group into recurring pain points to turn feedback directly into product backlog priorities.",
-    ],
-    note: "Built for automated brand compliance and multi-channel banking scale",
-    points: [
-      "Structured campaign brief with real-time readiness scoring and channel specs",
-      "Approved prompt library with dynamic variables and brand-safe templates",
-      "Automated Review Gate with compliance checklist and backlog feedback loop",
-    ],
-    poster: "/media/nivara/poster.webp",
-    still: "/media/nivara/i3.webp",
-    reel: [
-      { src: "/media/nivara/i1.webp", alt: "Dashboard overview" },
-      { src: "/media/nivara/i2.webp", alt: "Meta recommendations view" },
-      { src: "/media/nivara/i3.webp", alt: "Authority tracker" },
-    ],
-    gallery: [
-      { src: "/media/nivara/nivara.mp4", alt: "Pulse dashboard", kind: "full" },
-      { src: "/media/nivara/wide.mp4", alt: "Report view", kind: "split" },
-    ],
-    strip: [
-      { src: "/media/nivara/slide1.webp", alt: "Dashboard detail"},
-      { src: "/media/nivara/slide2.webp", alt: "Content brief view" },
-      { src: "/media/nivara/slide3.webp", alt: "Technical audit view" },
-    ],
-  },
-
-  {
     slug: "edition",
     title: "Edition Birmingham",
     client: "Select Property",
@@ -433,6 +390,81 @@ export const PROJECTS: Project[] = [
     ],
   },
 
+  {
+  slug: "ai-imagery",
+  title: "Real Assets, Reimagined",
+  client: "Self-initiated",
+  year: "2026",
+  place: "Dubai",
+  categories: ["AI Imagery"],
+  tags: ["Generative AI", "Art direction", "Photography", "CGI"],
+  summary:
+    "Everyday property, product and lifestyle images, turned into campaign visuals with AI, while the building, room or car stays true.",
+  brief:
+    "Change the light, the setting and the story. *Never the product.*",
+  body: [
+    "Each piece starts from a real asset: a drone shot, a rental listing photo, an architect's drawing or a studio car photo. AI changes the sky, the styling, the setting and the angle. The product itself stays exactly as it is, checked against the original and composited back by hand where needed.",
+  ],
+  role: ["Art direction", "AI image production", "Retouching"],
+  // TODO: if any Select Property images are included, add: credits: "Select Property imagery shown with permission"
+  poster: "/media/ai-images/poster.webp",
+  gallery: [
+    { src: "/media/ai-images/tower-before.webp", alt: "Manchester tower, Original drone shot and The same tower at golden hour", kind: "full",
+      title: "Before", caption: "Original drone shot. Flat sky, flat light." },
+
+    { src: "/media/ai-images/apartment-before.webp", alt: "Apartment with basic rental staging and apartment restaged as a luxury home ", kind: "full",
+      title: "Before", caption: "Basic rental staging." },
+
+    { src: "/media/ai-images/car-moodboard.webp", alt: "One car shown in five campaign directions", kind: "full",
+      title: "One car, five campaigns", caption: "One studio side profile, five directions. Concept work." },
+
+    { src: "/media/ai-images/swimming-pool.webp", alt: "One car shown in five campaign directions", kind: "full",
+      title: "Lifestyle swimming pool", caption: "Realistic humaan elements with double exposure effect" },
+   ],
+  },
+  
+  {
+    slug: "nivara",
+    title: "Nivara Studio",
+    client: "Nivara Bank (Concept)",
+    role: ["Creative Direction", "Product Design", "Web Design"],
+    year: "2026",
+    place: "Dubai, UAE",
+    categories: ["AI & Creative Tools"],
+    tags: ["Automation", "Design system", "Web design", "Analytics"],
+    featured: true,
+    restricted: false,
+    summary:
+      "A GenAI creative production and governance tool built for Nivara Bank to automate campaign adaptation, brand compliance, and feedback loops.",
+    brief:
+      "Manual creative adaptation and compliance checks create bottlenecks in banking campaigns. Nivara Studio turns creative governance into an automated, error-free product workflow.",
+    body: [
+      "Fully automated campaign adaptation tool. From a single credit card brief, approved prompt templates generate localized, channel-ready creative assets across app banners, ATM screens, email headers, Instagram stories, and branch digital displays in both English and Arabic.",
+      "Every variant passes an automated Review Gate before sign-off: evaluating WCAG AA contrast against background pixels, mandatory rate disclosures, prohibited claims, language parity, and safe zones. Any rejected outputs automatically group into recurring pain points to turn feedback directly into product backlog priorities.",
+    ],
+    note: "Built for automated brand compliance and multi-channel banking scale",
+    points: [
+      "Structured campaign brief with real-time readiness scoring and channel specs",
+      "Approved prompt library with dynamic variables and brand-safe templates",
+      "Automated Review Gate with compliance checklist and backlog feedback loop",
+    ],
+    poster: "/media/nivara/poster.webp",
+    still: "/media/nivara/i3.webp",
+    reel: [
+      { src: "/media/nivara/i1.webp", alt: "Dashboard overview" },
+      { src: "/media/nivara/i2.webp", alt: "Meta recommendations view" },
+      { src: "/media/nivara/i3.webp", alt: "Authority tracker" },
+    ],
+    gallery: [
+      { src: "/media/nivara/nivara.mp4", alt: "Pulse dashboard", kind: "full" },
+      { src: "/media/nivara/wide.mp4", alt: "Report view", kind: "split" },
+    ],
+    strip: [
+      { src: "/media/nivara/slide1.webp", alt: "Dashboard detail"},
+      { src: "/media/nivara/slide2.webp", alt: "Content brief view" },
+      { src: "/media/nivara/slide3.webp", alt: "Technical audit view" },
+    ],
+  },
   
   {
     slug: "global-furnovate",
@@ -679,38 +711,7 @@ points: [
     ],
   },
 
-  {
-  slug: "ai-imagery",
-  title: "Real Assets, Reimagined",
-  client: "Self-initiated",
-  year: "2026",
-  place: "Dubai",
-  categories: ["AI Imagery"],
-  tags: ["Generative AI", "Art direction", "Photography", "CGI"],
-  summary:
-    "Everyday property, product and lifestyle images, turned into campaign visuals with AI, while the building, room or car stays true.",
-  brief:
-    "Change the light, the setting and the story. *Never the product.*",
-  body: [
-    "Each piece starts from a real asset: a drone shot, a rental listing photo, an architect's drawing or a studio car photo. AI changes the sky, the styling, the setting and the angle. The product itself stays exactly as it is, checked against the original and composited back by hand where needed.",
-  ],
-  role: ["Art direction", "AI image production", "Retouching"],
-  // TODO: if any Select Property images are included, add: credits: "Select Property imagery shown with permission"
-  poster: "/media/ai-images/poster.webp",
-  gallery: [
-    { src: "/media/ai-images/tower-before.webp", alt: "Manchester tower, Original drone shot and The same tower at golden hour", kind: "full",
-      title: "Before", caption: "Original drone shot. Flat sky, flat light." },
-
-    { src: "/media/ai-images/apartment-before.webp", alt: "Apartment with basic rental staging and apartment restaged as a luxury home ", kind: "full",
-      title: "Before", caption: "Basic rental staging." },
-
-    { src: "/media/ai-images/car-moodboard.webp", alt: "One car shown in five campaign directions", kind: "full",
-      title: "One car, five campaigns", caption: "One studio side profile, five directions. Concept work." },
-
-    { src: "/media/ai-images/swimming-pool.webp", alt: "One car shown in five campaign directions", kind: "full",
-      title: "Lifestyle swimming pool", caption: "Realistic humaan elements with double exposure effect" },
-   ],
-  },
+  
 
   {
   slug: "editorial-brand-mood",
