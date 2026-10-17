@@ -193,51 +193,7 @@ export const PROJECTS: Project[] = [
       { src: "/media/ops/slide7.webp", alt: "Building exterior" },
     ],
   },
-{
-    slug: "pulse",
-    title: "SEO Pulse",
-    client: "Select Property",
-    year: "2026",
-    place: "UK / GCC / Global",
-    categories: ["AI & Creative Tools", "Brand & Identity", "Websites & Digital"],
-    tags: ["Automation", "SEO", "Analytics", "Design system", "Web design"],
-    featured: true,
-    restricted: true,
-    summary:
-      "A named, branded SEO intelligence product for the marketing team, running on an automated pipeline that reports itself every month.",
-    brief:
-      "SEO reporting nobody reads is not a reporting problem. It is a *product* problem.",
-    body: [
-      "The monthly SEO picture existed. It lived in spreadsheets and Drive folders the marketing team had to go looking for, and nobody went looking. The work was being done and the decisions it should have informed were being made without it.",
-      "Pulse turns that output into something people open. A pipeline collects Search Console and analytics data, competitor movement and page-level authority change each month, and writes the results where the dashboard can read them. Eight views sit on top: hero metrics, meta title and description recommendations with inline status and notes, technical audit findings, blog drafts, content gap briefs, competitor monitoring, an authority tracker showing month-on-month position change, and link opportunities.",
-      "It is a product rather than a script, and that was deliberate. It has a name, a tagline, a logo lockup and its own colour system, with a fixed sidebar and card layout. Built in plain JavaScript on serverless functions with invite-only access, without a framework, so it stays readable and easy to hand to somebody else.",
-    ],
-    role: ["Strategy", "Product design", "UX", "Architecture", "Build"],
-    note: "Built for the five minutes a week it actually gets",
-    points: [
-      "Eight views, from hero metrics to link opportunities",
-      "Reads Search Console and analytics data on a monthly cycle",
-      "Tracks competitor movement, then says what to do about it",
-    ],
-    poster: "/media/pulse/poster.webp",
-    still: "/media/pulse/still.webp",
-    reel: [
-      { src: "/media/pulse/i1.webp", alt: "Pulse dashboard overview" },
-      { src: "/media/pulse/i2.webp", alt: "Meta recommendations view" },
-      { src: "/media/pulse/i3.webp", alt: "Authority tracker" },
-    ],
-    gallery: [
-      { src: "/media/pulse/wide.webp", alt: "Pulse dashboard", kind: "full" },
-      { src: "/media/pulse/gallery1.webp", alt: "Report view", kind: "split" },
-      { src: "/media/pulse/gallery2.webp", alt: "Competitor monitoring", kind: "split" },
-      { src: "/media/pulse/gallery3.webp", alt: "Pulse identity", kind: "full" },
-    ],
-    strip: [
-      { src: "/media/pulse/slide1.webp", alt: "Dashboard detail"},
-      { src: "/media/pulse/slide2.webp", alt: "Content brief view" },
-      { src: "/media/pulse/slide3.webp", alt: "Technical audit view" },
-    ],
-  },
+
 
   {
     slug: "select-property",
@@ -337,6 +293,51 @@ export const PROJECTS: Project[] = [
       { src: "/media/vl/slide6.webp", alt: "Mobile layout" },
       { src: "/media/vl/slide7.webp", alt: "Gallery view" },
       { src: "/media/vl/slide8.webp", alt: "Enquiry form" },
+    ],
+  },
+  {
+    slug: "pulse",
+    title: "SEO Pulse",
+    client: "Select Property",
+    year: "2026",
+    place: "UK / GCC / Global",
+    categories: ["AI & Creative Tools", "Brand & Identity", "Websites & Digital"],
+    tags: ["Automation", "SEO", "Analytics", "Design system", "Web design"],
+    featured: true,
+    restricted: true,
+    summary:
+      "A named, branded SEO intelligence product for the marketing team, running on an automated pipeline that reports itself every month.",
+    brief:
+      "SEO reporting nobody reads is not a reporting problem. It is a *product* problem.",
+    body: [
+      "The monthly SEO picture existed. It lived in spreadsheets and Drive folders the marketing team had to go looking for, and nobody went looking. The work was being done and the decisions it should have informed were being made without it.",
+      "Pulse turns that output into something people open. A pipeline collects Search Console and analytics data, competitor movement and page-level authority change each month, and writes the results where the dashboard can read them. Eight views sit on top: hero metrics, meta title and description recommendations with inline status and notes, technical audit findings, blog drafts, content gap briefs, competitor monitoring, an authority tracker showing month-on-month position change, and link opportunities.",
+      "It is a product rather than a script, and that was deliberate. It has a name, a tagline, a logo lockup and its own colour system, with a fixed sidebar and card layout. Built in plain JavaScript on serverless functions with invite-only access, without a framework, so it stays readable and easy to hand to somebody else.",
+    ],
+    role: ["Strategy", "Product design", "UX", "Architecture", "Build"],
+    note: "Built for the five minutes a week it actually gets",
+    points: [
+      "Eight views, from hero metrics to link opportunities",
+      "Reads Search Console and analytics data on a monthly cycle",
+      "Tracks competitor movement, then says what to do about it",
+    ],
+    poster: "/media/pulse/poster.webp",
+    still: "/media/pulse/still.webp",
+    reel: [
+      { src: "/media/pulse/i1.webp", alt: "Pulse dashboard overview" },
+      { src: "/media/pulse/i2.webp", alt: "Meta recommendations view" },
+      { src: "/media/pulse/i3.webp", alt: "Authority tracker" },
+    ],
+    gallery: [
+      { src: "/media/pulse/wide.webp", alt: "Pulse dashboard", kind: "full" },
+      { src: "/media/pulse/gallery1.webp", alt: "Report view", kind: "split" },
+      { src: "/media/pulse/gallery2.webp", alt: "Competitor monitoring", kind: "split" },
+      { src: "/media/pulse/gallery3.webp", alt: "Pulse identity", kind: "full" },
+    ],
+    strip: [
+      { src: "/media/pulse/slide1.webp", alt: "Dashboard detail"},
+      { src: "/media/pulse/slide2.webp", alt: "Content brief view" },
+      { src: "/media/pulse/slide3.webp", alt: "Technical audit view" },
     ],
   },
 
