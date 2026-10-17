@@ -296,6 +296,43 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "lulua",
+    title: "Lu’lu’a",
+    client: "Concept",
+    year: "2026",
+    place: "Dubai",
+    categories: ["Campaigns", "AI Imagery", "Property & Sales Collateral"],
+    tags: ["Generative AI", "Art direction", "Brochures", "Social", "RTL / Arabic", "Motion"],
+    featured: true,
+    summary:
+      "A full launch campaign for an imagined landmark on the Dubai coast: name, key visual, brochure, social and Arabic versions, made with AI and art-directed.",
+    brief:
+      "A building that doesn’t exist, launched as if it *opens next year*.",
+    body: [
+      "Lu’lu’a is Arabic for pearl. For thousands of years the Gulf’s greatest treasure came from beneath its waters, and that heritage gave the concept its idea: two shell-shaped towers on their own island, opened like an oyster, with a mirrored sphere held in the bridge between them.",
+      "From there it was treated like a real launch. One line, “Live where the Gulf keeps its treasures”, and one look carried through every piece: aerial key visual, dusk and lifestyle imagery, residences, pool deck, a printed brochure and social posts, with Arabic versions designed rather than translated.",
+      "The hard part is not getting one beautiful picture; it is getting the same building, the same materials and the same light in every picture, so the campaign reads as one real place. Each image was checked against the key visual before it joined the set.",
+    ],
+    role: ["Concept and naming", "Creative direction", "AI image direction", "Copywriting", "Brochure and social design", "Arabic adaptation"],
+    note: "Self-initiated. The development is imagined; every image is AI-generated and art-directed",
+    points: [
+      "Concept, name and one campaign line across every piece",
+      "Arabic designed, not translated: “Rare by nature” became نادرة بطبيعتها",
+      "Same building, materials and light in every image",
+    ],
+    poster: "/media/lulua/poster.webp",
+    still: "/media/lulua/dusk.webp",
+    gallery: [
+      { src: "/media/lulua/extenal.webp", alt: "A resident looking out from the living room towards the sea", kind: "full" },
+      { src: "/media/lulua/balcony.mp4", poster: "/media/lulua/balcony.webp", alt: "Motion study: the view from a Lu’lu’a balcony", kind: "split" },
+      { src: "/media/lulua/pool.webp", alt: "The pool deck at the foot of one of the towers", kind: "split" },
+      { src: "/media/lulua/brochure.webp", alt: "The printed brochure: cover and opening spread", kind: "full",
+        title: "Brochure", caption: "Cover and opening spread." },
+      { src: "/media/lulua/social.webp", alt: "Social posts in English and Arabic on a tablet", kind: "full",
+        title: "Social", caption: "English and Arabic, one look." },
+    ],
+  },
+  {
     slug: "pulse",
     title: "SEO Pulse",
     client: "Select Property",
@@ -391,6 +428,77 @@ export const PROJECTS: Project[] = [
   },
 
   {
+    slug: "lancaster-wharf",
+    title: "Lancaster Wharf",
+    client: "Select Property",
+    year: "2026",
+    place: "Birmingham",
+    categories: ["Websites & Digital", "Property & Sales Collateral"],
+    tags: ["Web design", "Front-end build"],
+    featured: true,
+    summary:
+      "An investor landing page for Affinity Living Lancaster Wharf, 266 build-to-rent apartments on Birmingham's city-centre waterfront.",
+    brief:
+      "Approved copy, kept *word for word*, rebuilt into a page an investor can act on in one scroll.",
+    body: [
+      "Lancaster Wharf is the fifth Affinity Living development, sold to investors in the UK and overseas. By the time this page was needed the final apartments were on sale, and the job was simple to describe: help a busy investor decide quickly, then make enquiring effortless.",
+      "The copy was already approved, so it stayed exactly as written. Everything around it changed. The page opens on the investment case, then follows the order an investor asks their questions in: why this building, why this part of Birmingham, what residents get, and who is behind it. Birmingham's rental demand is shown rather than described, and the enquiry form asks for four things only.",
+    ],
+    role: ["Page structure and UX", "Landing page design", "Build"],
+    note: "Approved copy unchanged; structure and design rebuilt",
+    points: [
+      "Price, projected yield, completion and deposit before any scrolling",
+      "Sticky navigation straight to any section",
+      "Four-field enquiry form that works one-handed, with international dialling codes",
+    ],
+    outcome: [
+      { label: "Enquiries", value: "300+" },
+      { label: "Build-to-rent apartments", value: "266" },
+      { label: "Target markets: UK, UAE, Saudi Arabia", value: "3" },
+    ],
+    link: "https://enquire.selectproperty.com/affinity-living-lancaster-wharf/invest-in-birmingham",
+    poster: "/media/allw/poster.webp",
+    still: "/media/allw/slide.webp",
+    gallery: [
+      { src: "/media/allw/slide2.webp", alt: "The landing page on desktop, tablet and phone", kind: "full" },
+      { src: "/media/allw/slide3.webp", alt: "The short enquiry form on a phone", kind: "full" },
+    ],
+  },
+
+  {
+    slug: "mydubaiproperty",
+    title: "mydubaiproperty.ae",
+    client: "Select Property",
+    year: "2025",
+    place: "Dubai",
+    categories: ["Websites & Digital"],
+    tags: ["Web design", "Front-end build"],
+    featured: true,
+    summary:
+      "A Dubai property search website for buyers and investors, designed and built end to end.",
+    brief:
+      "Dubai property, found the way buyers *actually search*: by area, size and map.",
+    body: [
+      "mydubaiproperty.ae is Select Property's website for buyers of Dubai real estate. It opens on the team's experience in the market, then gets straight to the listings, because most visitors arrive wanting to see what is available rather than read about the company.",
+      "Buyers can browse the latest properties, filter by bedrooms and area, and see every listing on a map of Dubai, so location is part of the decision from the first screen. The same search works one-handed on a phone.",
+    ],
+    role: ["Web design", "UX", "Build"],
+    note: "Designed and built end to end",
+    points: [
+      "Search by bedrooms and area, with every listing on a map",
+      "Latest properties one click from a full listing",
+      "Designed for phones first, where most buyers search",
+    ],
+    link: "https://mydubaiproperty.ae",
+    poster: "/media/mdp/poster.webp",
+    still: "/media/mdp/slide.webp",
+    gallery: [
+      { src: "/media/mdp/gallery3.webp", alt: "The mydubaiproperty.ae home page on a laptop", kind: "full" },
+      { src: "/media/mdp/gallery2.webp", alt: "Property listings on a phone", kind: "full" },
+    ],
+  },
+
+  {
   slug: "ai-imagery",
   title: "Real Assets, Reimagined",
   client: "Self-initiated",
@@ -404,8 +512,14 @@ export const PROJECTS: Project[] = [
     "Change the light, the setting and the story. *Never the product.*",
   body: [
     "Each piece starts from a real asset: a drone shot, a rental listing photo, an architect's drawing or a studio car photo. AI changes the sky, the styling, the setting and the angle. The product itself stays exactly as it is, checked against the original and composited back by hand where needed.",
+    "The same method carries into outdoor work. Two billboard concepts break the frame, a train and a horse coming out of the board, so a passing driver gets the idea in about two seconds.",
   ],
   role: ["Art direction", "AI image production", "Retouching"],
+  points: [
+    "Real source material in, product unchanged out",
+    "Every result checked against the original, hand-composited where needed",
+    "Outdoor concepts that read in about two seconds",
+  ],
   // TODO: if any Select Property images are included, add: credits: "Select Property imagery shown with permission"
   poster: "/media/ai-images/poster.webp",
   gallery: [
@@ -418,10 +532,18 @@ export const PROJECTS: Project[] = [
     { src: "/media/ai-images/car-moodboard.webp", alt: "One car shown in five campaign directions", kind: "full",
       title: "One car, five campaigns", caption: "One studio side profile, five directions. Concept work." },
 
-    { src: "/media/ai-images/swimming-pool.webp", alt: "One car shown in five campaign directions", kind: "full",
-      title: "Lifestyle swimming pool", caption: "Realistic humaan elements with double exposure effect" },
+    { src: "/media/ai-images/swimming-pool.webp", alt: "Lifestyle swimming pool", kind: "full",
+      title: "Lifestyle swimming pool", caption: "Realistic human elements with a double exposure effect" },
+
+    { src: "/media/ai-images/etihad-rail.webp", alt: "Concept billboard for Etihad Rail: a train breaking out through a tunnel in the frame", kind: "full",
+      title: "Billboard concept, Etihad Rail", caption: "The train breaks out of the board. Concept work." },
+
+    { src: "/media/ai-images/hrs-billboard.webp", alt: "Concept billboard for HRS Developers: a bronze horse rising out of the frame", kind: "full",
+      title: "Billboard concept, HRS Developers", caption: "A bronze horse rising out of the frame. Concept work." },
    ],
   },
+
+  
   
   {
     slug: "nivara",
