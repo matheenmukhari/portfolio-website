@@ -65,7 +65,7 @@ export default function InfoPage() {
           className="type-mega-sm invisible col-span-12 md:col-span-10"
           style={{ fontVariationSettings: '"opsz" 72, "wght" 430' }}
         >
-          {accents("20+ years directing brands, and building the systems that *hold them together*.")}
+          {accents("18+ years directing brands, and building the systems that *hold them together*.")}
         </h1>
 
         <div className="info-row col-span-12 mt-[8svh] md:col-span-5">
