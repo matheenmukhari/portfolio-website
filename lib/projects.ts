@@ -184,10 +184,13 @@ export const PROJECTS: Project[] = [
     ],
     strip: [
       { src: "/media/ops/slide8.webp", alt: "Campaign artwork" },
+      { src: "/media/ops/overview.webp", alt: "Intro" },
       { src: "/media/ops/slide1.webp", alt: "Brochure spread" },
+      { src: "/media/ops/art-direction.webp", alt: "Art" },
       { src: "/media/ops/slide2.webp", alt: "Apartment photography" },
       { src: "/media/ops/slide3.webp", alt: "Floor plan" },
       { src: "/media/ops/slide4.webp", alt: "Print collateral" },
+      { src: "/media/ops/grid.webp", alt: "grid" },
       { src: "/media/ops/slide5.webp", alt: "Digital campaign unit" },
       { src: "/media/ops/slide6.webp", alt: "Interior detail" },
       { src: "/media/ops/slide7.webp", alt: "Building exterior" },
