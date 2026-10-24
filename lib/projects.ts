@@ -471,7 +471,7 @@ export const PROJECTS: Project[] = [
     { src: "/media/lulua/external.webp", alt: "Dusk hero: the four sail-fin residence on its private island" },
     { src: "/media/lulua/zoom.webp",  alt: "Architectural Drone view" },
     { src: "/media/lulua/dusk.webp",  alt: "View from balcony" },
-    { src: "/media/lulua/couple.webp",   alt: "Golden-hour arrival on the private jetty" },
+    { src: "/media/lulua/water.webp",   alt: "High detailed Ai Imagery" },
   ],
 
   gallery: [
@@ -536,7 +536,6 @@ export const PROJECTS: Project[] = [
         "Billboard mock on Sheikh Zayed Road and metro takeover",
         "Printed launch brochure, cover and opening spread",
         "Social system in English and Arabic",
-        "60-second brand film with 8 cuts",
       ],
     },
     {
