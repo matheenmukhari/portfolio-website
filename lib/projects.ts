@@ -143,59 +143,179 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    slug: "one-port-st",
-    title: "One Port Street",
-    client: "Select Property",
-    year: "2025",
-    place: "Manchester",
-    categories: ["Brand & Identity", "Websites & Digital", "Property & Sales Collateral"],
-    tags: ["Art direction", "Web design", "Brochures", "CGI", "Photography"],
-    featured: true,
-    summary:
-      "Launch identity, website and sales collateral for a rental development in Manchester's Northern Quarter.",
-    brief:
-      "A rental building in the Northern Quarter, presented the way you would present *somewhere to live* rather than a tenancy.",
-    body: [
-      "One Port Street sits in the Northern Quarter, and that address does a lot of the selling. The audience is renting rather than buying, which changes the questions entirely - what is available, what does it cost this month, how soon can I move, what is actually on my doorstep. None of that is served by leading with amenity photography.",
-      "So the site leads with the apartments. Availability, layouts and monthly pricing sit high on the page, where somebody deciding whether to book a viewing can reach them in a single scroll. The atmosphere works underneath that rather than in front of it, and the neighbourhood is treated as part of the offer instead of a closing paragraph.",
-    ],
-    role: ["Creative direction", "Art direction", "Web design", "Sales collateral"],
-    note: "Judged on viewings booked, not impressions served",
-    points: [
-      "Availability and monthly pricing above atmosphere",
-      "Leasing collateral and site built from one set of masters",
-      "The Northern Quarter treated as the headline, not a footnote",
-    ],
-    link: "https://oneportst-manchester.com/",
-    poster: "/media/ops/poster.webp",
-    still: "/media/ops/still.webp",
-    reel: [
-      { src: "/media/ops/i1.webp", alt: "One Port Street homepage" },
-      { src: "/media/ops/i2.webp", alt: "Apartment availability and pricing" },
-      { src: "/media/ops/i3.webp", alt: "Booking a viewing" },
-    ],
-    gallery: [
-      { src: "/media/ops/wide.webp", alt: "One Port Street building", kind: "full" },
-      { src: "/media/ops/gallery1.webp", alt: "Apartment interior", kind: "split" },
-      { src: "/media/ops/gallery2.webp", alt: "Communal space", kind: "split" },
-      { src: "/media/ops/gallery3.webp", alt: "Northern Quarter setting", kind: "full" },
-      { src: "/media/ops/social.mp4", alt: "Social campaign film", kind: "split" },
-      { src: "/media/ops/social.webp", alt: "Social campaign frames", kind: "split" },
-    ],
-    strip: [
-      { src: "/media/ops/slide8.webp", alt: "Campaign artwork" },
-      { src: "/media/ops/overview.webp", alt: "Intro" },
-      { src: "/media/ops/slide1.webp", alt: "Brochure spread" },
-      { src: "/media/ops/art-direction.webp", alt: "Art" },
-      { src: "/media/ops/slide2.webp", alt: "Apartment photography" },
-      { src: "/media/ops/slide3.webp", alt: "Floor plan" },
-      { src: "/media/ops/slide4.webp", alt: "Print collateral" },
-      { src: "/media/ops/grid.webp", alt: "grid" },
-      { src: "/media/ops/slide5.webp", alt: "Digital campaign unit" },
-      { src: "/media/ops/slide6.webp", alt: "Interior detail" },
-      { src: "/media/ops/slide7.webp", alt: "Building exterior" },
-    ],
-  },
+  slug: "one-port-st",
+  title: "One Port Street",
+  client: "Select Property",
+  year: "2025",
+  place: "Manchester",
+  categories: [
+    "Brand & Identity",
+    "Websites & Digital",
+    "Property & Sales Collateral",
+    "Launch campaign",
+  ],
+  tags: [
+    "Art direction",
+    "Web design",
+    "Landing pages",
+    "Brochures",
+    "Flyers",
+    "Floor plans",
+    "Social",
+    "Hoardings",
+    "CGI",
+    "Photography",
+  ],
+  featured: true,
+
+  summary:
+    "The full launch for a Northern Quarter rental development: identity, website, landing pages, brochure, flyers, floor plans, social, hoardings and construction-site OOH \u2014 one visual system across every piece.",
+
+  brief:
+    "A rental building in the Northern Quarter, presented the way you would present somewhere to live rather than a tenancy.",
+
+  body: [
+    "One Port Street sits in the Northern Quarter, and that address does a lot of the selling. The audience is renting rather than buying, which changes the questions entirely \u2014 what is available, what does it cost this month, how soon can I move, what is actually on my doorstep. None of that is served by leading with amenity photography.",
+    "So the site leads with the apartments. Availability, layouts and monthly pricing sit high on the page, where somebody deciding whether to book a viewing can reach them in a single scroll. The atmosphere works underneath that rather than in front of it, and the neighbourhood is treated as part of the offer instead of a closing paragraph.",
+    "Underneath the site sat the full launch set: the launch identity, a printed sales brochure, flyers for local drops, floor plan sheets, social campaigns in static and film, construction-site hoardings and the digital banners that fed every landing page. One visual system, one set of masters, one standard for the CGI and photography \u2014 so a brochure on a desk, a hoarding on Great Ancoats Street, a story on Instagram and the website all read as one place.",
+  ],
+
+  role: [
+    "Creative direction",
+    "Launch identity and art direction",
+    "Website design and build direction",
+    "Landing page design across campaigns",
+    "Sales brochure and leaflets",
+    "Floor plan design",
+    "Social design and campaign film",
+    "Hoardings and construction-site OOH",
+    "Photography direction",
+  ],
+
+  note: "Judged on viewings booked, not impressions served.",
+
+  points: [
+    "A full launch set, from website to hoarding, built on one visual system",
+    "Availability and monthly pricing above atmosphere \u2014 the site built around rental intent",
+    "Launch identity, CGI direction and photography art direction held to one standard across every piece",
+    "The Northern Quarter treated as the headline, not a footnote",
+    "Delivered from Dubai for a Manchester launch, across in-house team, agencies and local production partners",
+  ],
+
+  link: "https://oneportst-manchester.com/",
+  poster: "/media/ops/poster.webp",
+  still: "/media/ops/still.webp",
+
+  reel: [
+    { src: "/media/ops/i1.webp", alt: "One Port Street homepage" },
+    { src: "/media/ops/i2.webp", alt: "Apartment availability and pricing" },
+    { src: "/media/ops/i3.webp", alt: "Booking a viewing" },
+  ],
+
+  gallery: [
+    {
+      src: "/media/ops/wide.webp",
+      alt: "One Port Street building, Northern Quarter",
+      kind: "full",
+      title: "The address",
+      caption:
+        "The Northern Quarter does a lot of the selling. The brand steps back and lets the location lead.",
+    },
+    {
+      src: "/media/ops/gallery1.webp",
+      alt: "Apartment interior",
+      kind: "split",
+      title: "Interior",
+      caption: "Art-directed photography \u2014 real spaces, honest finish.",
+    },
+    {
+      src: "/media/ops/gallery2.webp",
+      alt: "Communal space",
+      kind: "split",
+      title: "Amenity",
+      caption:
+        "Shared spaces shot for how they are used, not how they look in a render.",
+    },
+    {
+      src: "/media/ops/gallery3.webp",
+      alt: "Northern Quarter setting",
+      kind: "full",
+      title: "The neighbourhood",
+      caption:
+        "Treated as part of the offer. The street carries as much weight as the building.",
+    },
+    {
+      src: "/media/ops/social.mp4",
+      alt: "Social campaign film",
+      kind: "split",
+      title: "Social film",
+      caption:
+        "Short-form motion for Instagram and TikTok \u2014 the launch set in moving form.",
+    },
+    {
+      src: "/media/ops/social.webp",
+      alt: "Social campaign frames \u2014 English static set",
+      kind: "split",
+      title: "Social system",
+      caption:
+        "Static posts and stories built on the launch grid, one standard across every post.",
+    },
+  ],
+
+  strip: [
+    { src: "/media/ops/slide8.webp",       alt: "Launch campaign artwork" },
+    { src: "/media/ops/overview.webp",     alt: "Launch overview spread" },
+    { src: "/media/ops/slide1.webp",       alt: "Sales brochure, inside spread" },
+    { src: "/media/ops/art-direction.webp", alt: "Art direction reference sheet" },
+    { src: "/media/ops/slide2.webp",       alt: "Apartment photography art-direction" },
+    { src: "/media/ops/slide3.webp",       alt: "Floor plan sheet in brand style" },
+    { src: "/media/ops/slide4.webp",       alt: "Print collateral: flyers and leaflets" },
+    { src: "/media/ops/grid.webp",         alt: "Launch grid and visual system" },
+    { src: "/media/ops/slide5.webp",       alt: "Digital campaign units and banners" },
+    { src: "/media/ops/slide6.webp",       alt: "Interior detail photography" },
+    { src: "/media/ops/slide7.webp",       alt: "Construction-site hoarding" },
+  ],
+
+  details: [
+    {
+      heading: "The launch set",
+      lead:
+        "One visual system across every piece. One standard on every brief.",
+      bullets: [
+        "Launch identity and art-direction system",
+        "Website with availability and monthly pricing above atmosphere",
+        "Landing pages across campaigns, UK, GCC and international",
+        "Printed sales brochure and leaflets",
+        "Floor plan sheets in brand style",
+        "Social: static system, stories, and short-form campaign film",
+        "Construction-site hoardings and local OOH",
+        "Digital banners, display and paid-social units",
+      ],
+    },
+    {
+      heading: "Craft",
+      lead:
+        "CGI and photography direction held every piece to one standard.",
+      bullets: [
+        "Art direction for apartment and amenity photography, briefing and signoff",
+        "CGI direction for building exteriors and interiors",
+        "Typographic system and photography grid shared between print and digital",
+        "A set of masters \u2014 one brochure, one photo set, one grid \u2014 feeding every piece downstream",
+      ],
+    },
+    {
+      heading: "Why rental intent led the brief",
+      lead:
+        "The buyer\u2019s journey for a rental is not the buyer\u2019s journey for an off-plan sale.",
+      bullets: [
+        "Rental decisions move fast: price, layout, availability, viewing, done",
+        "Lead with amenity photography and you lose the people ready to book",
+        "The brand earns authority by respecting the decision the viewer is actually making",
+        "The site is judged on viewings booked, not impressions served",
+      ],
+    },
+  ],
+},
 
 
   {
@@ -304,7 +424,7 @@ export const PROJECTS: Project[] = [
   client: "Concept",
   year: "2026",
   place: "Dubai",
-  categories: ["Brand system", "Launch campaign", "AI Imagery"],
+  categories: ["Brand & Identity", "Campaigns", "AI Imagery"],
   tags: [
     "Brand identity",
     "Generative AI",
