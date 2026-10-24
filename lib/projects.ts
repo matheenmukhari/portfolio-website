@@ -477,7 +477,7 @@ export const PROJECTS: Project[] = [
       { src: "/media/pulse/slide2.webp", alt: "Brand Guidelines" },
       { src: "/media/pulse/slide3.webp", alt: "Brand Guidelines" },
       { src: "/media/pulse/slide4.webp", alt: "Brand Guidelines" },
-      { src: "/media/pulse/slide5.webp", alt: "Brand Guidelines },
+      { src: "/media/pulse/slide5.webp", alt: "Brand Guidelines" },
     ],
 },
   {
