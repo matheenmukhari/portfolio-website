@@ -434,7 +434,7 @@ export const PROJECTS: Project[] = [
   featured: true,
 
   summary:
-    "A full launch for a single luxury residence on a Dubai private island \u2014 brand, architecture, campaign and 60-second brand film \u2014 developed end to end with an AI creative stack, art-directed to one standard.",
+    "A full launch for a single luxury residence on a Dubai private island brand, architecture, campaign developed end to end with an AI creative stack, art-directed to one standard.",
 
   brief:
     "A residence that doesn\u2019t exist, launched as if it opens next year. Rare by nature.",
@@ -442,18 +442,15 @@ export const PROJECTS: Project[] = [
   body: [
     "Lu\u2019lu\u2019a is Arabic for pearl. For thousands of years the greatest treasure of the Gulf came from beneath its waters, and that heritage gave the concept its form: a single residence on a single island, held in four tall curved white sail-fins that read, closed, as a pearl shell and, opened, as the home itself.",
     "From there it was treated as a real launch. One name. One line, \u2018Rare by nature\u2019 \u2014 \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627 in Arabic, designed rather than translated. One look carried through every piece: hero architectural renders at dusk, interiors, campaign key visuals, a Sheikh Zayed Road billboard, a printed brochure, social, and a 60-second brand film whose opening shot is the pearl shell slowly unfurling to reveal the building inside.",
-    "The hard part was never one beautiful picture. It was holding the same building, the same materials, the same light and the same evening across every image, every clip and every piece of print \u2014 so the campaign reads as one real place. The system that made that possible: a locked style prompt reused on every generation, with the hero image as the pixel-level anchor, every output checked against it before it joined the set.",
   ],
 
   role: [
     "Concept and naming",
     "Creative direction",
     "Brand system",
-    "AI image and video direction",
+    "AI image direction",
     "Prompt engineering and style governance",
-    "Copywriting, EN and AR",
     "Brochure and social design",
-    "Brand film direction",
     "Arabic adaptation",
   ],
 
@@ -472,47 +469,13 @@ export const PROJECTS: Project[] = [
 
   reel: [
     { src: "/media/lulua/external.webp", alt: "Dusk hero: the four sail-fin residence on its private island" },
-    { src: "/media/lulua/drawing.webp",  alt: "Architectural ink drawing of the Lu\u2019lu\u2019a residence" },
-    { src: "/media/lulua/balcony.webp",  alt: "Drone view into the main living room" },
+    { src: "/media/lulua/zoom.webp",  alt: "Architectural Drone view" },
+    { src: "/media/lulua/dusk.webp",  alt: "View from balcony" },
     { src: "/media/lulua/couple.webp",   alt: "Golden-hour arrival on the private jetty" },
   ],
 
   gallery: [
-    {
-      src: "/media/lulua/external.webp",
-      alt: "Dusk hero: the Lu\u2019lu\u2019a residence on its private island in the Arabian Gulf",
-      kind: "full",
-      title: "The residence",
-      caption: "Four tall curved sail-fins carry the pearl idea into architecture. One residence, one island, one evening.",
-    },
-    {
-      src: "/media/lulua/drawing.webp",
-      alt: "Architectural ink drawing of the Lu\u2019lu\u2019a residence on cream vellum",
-      kind: "full",
-      title: "Elevation study",
-      caption: "The same scene drawn as a presentation ink sketch \u2014 the starting frame of the brand film\u2019s drawing-to-reality morph.",
-    },
-    {
-      src: "/media/lulua/pearl-closed.webp",
-      alt: "The four fins closed into a pearl shell on the water",
-      kind: "split",
-      title: "Closed",
-      caption: "The residence read as a pearl. The brand film opens here and unfurls into the building.",
-    },
-    {
-      src: "/media/lulua/water-level.webp",
-      alt: "Water-level view of the residence from a drifting boat",
-      kind: "split",
-      title: "Water-level",
-      caption: "24mm from a dinghy, blue hour. One of eight matched angles that make up the launch set.",
-    },
-    {
-      src: "/media/lulua/balcony.webp",
-      alt: "View from a drone 3 metres outside the main balcony, interior visible",
-      kind: "full",
-      title: "The way in",
-      caption: "A drone outside the balcony holds the warm interior and the dusk sea in one frame. Travertine, Calacatta, bronze, walnut, boucle.",
-    },
+
     {
       src: "/media/lulua/couple.webp",
       alt: "A couple arriving on the private jetty at golden hour",
@@ -547,7 +510,7 @@ export const PROJECTS: Project[] = [
       alt: "60-second brand film \u2014 the pearl unfurls to reveal the residence",
       kind: "full",
       title: "Brand film",
-      caption: "60 seconds. Opens with the pearl shell slowly unfurling into the residence; closes on the mark and the line.",
+      caption: "Opens with the pearl shell slowly unfurling into the residence; closes on the mark and the line.",
     },
   ],
 
@@ -590,11 +553,11 @@ export const PROJECTS: Project[] = [
     },
   ],
    strip: [
-      { src: "/media/pulse/slide1.webp", alt: "Brand Guidelines"},
-      { src: "/media/pulse/slide2.webp", alt: "Brand Guidelines" },
-      { src: "/media/pulse/slide3.webp", alt: "Brand Guidelines" },
-      { src: "/media/pulse/slide4.webp", alt: "Brand Guidelines" },
-      { src: "/media/pulse/slide5.webp", alt: "Brand Guidelines" },
+      { src: "/media/lulua/slide1.webp", alt: "Brand Guidelines"},
+      { src: "/media/lulua/slide2.webp", alt: "Brand Guidelines" },
+      { src: "/media/lulua/slide3.webp", alt: "Brand Guidelines" },
+      { src: "/media/lulua/slide4.webp", alt: "Brand Guidelines" },
+      { src: "/media/lulua/slide5.webp", alt: "Brand Guidelines" },
     ],
 },
   {
