@@ -466,7 +466,7 @@ export const PROJECTS: Project[] = [
   ],
 
   poster: "/media/lulua/poster.webp",
-  still: "/media/lulua/social.webp",
+  still: "/media/lulua/day-shot.webp",
 
   reel: [
     { src: "/media/lulua/external.webp", alt: "Dusk hero: the four sail-fin residence on its private island" },
@@ -497,6 +497,13 @@ export const PROJECTS: Project[] = [
       kind: "split",
       title: "Social",
       caption: "English and Arabic, one look. \u2018Rare by nature\u2019 and \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627 running the same system.",
+    },
+    {
+      src: "/media/lulua/day-shot.webp",
+      alt: "Mid noon shot",
+      kind: "full",
+      title: "2 floors close up",
+      caption: "2 floors close up, lower drone view shot",
     },
     {
       src: "/media/lulua/brochure.webp",
