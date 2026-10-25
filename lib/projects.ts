@@ -400,11 +400,12 @@ export const PROJECTS: Project[] = [
       { src: "/media/vl/wide.webp", alt: "Circle Square development", kind: "full" },
       { src: "/media/vl/gallery1.webp", alt: "Apartment interior", kind: "split" },
       { src: "/media/vl/gallery2.webp", alt: "Residents' amenity space", kind: "split" },
-      { src: "/media/vl/gallery3.webp", alt: "Circle Square neighbourhood", kind: "full" },
+      { src: "/media/vl/vita-hero.mp4", alt: "Video Direction", kind: "full" },
       { src: "/media/vl/social.mp4", alt: "Launch campaign film", kind: "split" },
       { src: "/media/vl/social.webp", alt: "Social campaign frames", kind: "split" },
     ],
     strip: [
+      { src: "/media/vl/gallery3.webp", alt:"Hoarding" },
       { src: "/media/vl/slide1.webp", alt: "Homepage detail" },
       { src: "/media/vl/slide2.webp", alt: "Apartment listing" },
       { src: "/media/vl/slide3.webp", alt: "Language version" },
