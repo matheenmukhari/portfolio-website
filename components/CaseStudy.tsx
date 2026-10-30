@@ -343,18 +343,20 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
                         <p className="mt-3">{project.credits}</p>
                       </>
                     )}
-                    {(project.links ?? (project.link ? [{ label: project.linkLabel ?? "Visit site", url: project.link }] : [])).map((l) => (
-                      <a
-                        key={l.url}
-                        href={l.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        data-cursor="link"
-                        className="type-micro mt-6 inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
-                      >
-                        {l.label}
-                      </a>
-                    ))}
+                    <div className="mt-6 flex flex-col gap-2">
+                      {(project.links ?? (project.link ? [{ label: project.linkLabel ?? "Visit site", url: project.link }] : [])).map((l) => (
+                        <a
+                          key={l.url}
+                          href={l.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          data-cursor="link"
+                          className="type-micro inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
+                        >
+                          {l.label}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 </div>
               ) : (
@@ -380,18 +382,20 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
                           <p className="mt-3">{project.credits}</p>
                         </>
                       )}
-                      {(project.links ?? (project.link ? [{ label: project.linkLabel ?? "Visit site", url: project.link }] : [])).map((l) => (
-                        <a
-                          key={l.url}
-                          href={l.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          data-cursor="link"
-                          className="type-micro mt-6 inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
-                        >
-                          {l.label}
-                        </a>
-                      ))}
+                      <div className="mt-6 flex flex-col gap-2">
+                        {(project.links ?? (project.link ? [{ label: project.linkLabel ?? "Visit site", url: project.link }] : [])).map((l) => (
+                          <a
+                            key={l.url}
+                            href={l.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-cursor="link"
+                            className="type-micro inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
+                          >
+                            {l.label}
+                          </a>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>

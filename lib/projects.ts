@@ -480,107 +480,149 @@ export const PROJECTS: Project[] = [
   note: "Self-initiated. The development is imagined; every image and film is AI-generated and art-directed through a locked workflow built for this project.",
 
   points: [
-    "Concept, name and one campaign line  -  \u2018Rare by nature\u2019  -  carried across every piece",
-    "Arabic designed, not translated: \u2018Rare by nature\u2019 became \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627",
-    "A locked style system that holds the same building, materials and light across every image and clip",
-    "A 60-second brand film opening with the pearl shell unfurling into the residence",
-    "AI stack: GPT-6 Astra for stills, Veo 3 for motion, with a single reference-anchored prompt governing both",
-  ],
+  "Concept, name and one campaign line, 'Rare by nature', carried across every piece",
+  "Arabic designed, not translated: 'Rare by nature' became نادرة بطبيعتها",
+  "A locked style system that holds the same building, materials and light across every image and clip",
+  "A 60-second brand film opening with the pearl shell unfurling into the residence",
+  "AI stack: GPT image models for stills, Veo 3 for motion, with a single reference-anchored prompt governing both",
+],
 
-  poster: "/media/lulua/poster.webp",
-  still: "/media/lulua/day-shot.webp",
+poster: "/media/lulua/poster.webp",
+still: "/media/lulua/day-shot.webp",
 
-  reel: [
-    { src: "/media/lulua/external.webp", alt: "Dusk hero: the four sail-fin residence on its private island" },
-    { src: "/media/lulua/zoom.webp",  alt: "Architectural Drone view" },
-    { src: "/media/lulua/dusk.webp",  alt: "View from balcony" },
-    { src: "/media/lulua/water.webp",   alt: "High detailed Ai Imagery" },
-  ],
+reel: [
+  { src: "/media/lulua/external.webp", alt: "Dusk hero: the four sail-fin residence on its private island" },
+  { src: "/media/lulua/drawing.webp",  alt: "Architectural ink drawing of the Lu'lu'a residence" },
+  { src: "/media/lulua/balcony.webp",  alt: "Drone view into the main living room from outside the balcony" },
+  { src: "/media/lulua/zoom.webp",     alt: "Low aerial drone view of the four fins" },
+],
 
-  gallery: [
+gallery: [
+  {
+    src: "/media/lulua/external.webp",
+    alt: "Dusk hero: the four sail-fin residence on its private island",
+    kind: "full",
+    title: "The residence",
+    caption: "Four tall curved sail-fins carry the pearl idea into architecture. One residence, one island, one evening.",
+  },
+  {
+    src: "/media/lulua/drawing.webp",
+    alt: "Architectural ink drawing of the Lu'lu'a residence on cream vellum",
+    kind: "full",
+    title: "Elevation study",
+    caption: "The same scene drawn as an architect's ink sketch. The starting frame of the brand film's drawing-to-reality reveal.",
+  },
+  {
+    src: "/media/lulua/water-level.webp",
+    alt: "Water-level view of the residence from a drifting boat at blue hour",
+    kind: "split",
+    title: "Water level",
+    caption: "24mm from a dinghy, blue hour. The approach you only get by sea.",
+  },
+  {
+    src: "/media/lulua/balcony.webp",
+    alt: "Drone view 3 metres outside the main balcony, warm interior visible through the open glass",
+    kind: "split",
+    title: "The way in",
+    caption: "A drone outside the balcony holds the warm interior and the dusk sea in one frame. Travertine, Calacatta, bronze, walnut, boucle.",
+  },
+  {
+    src: "/media/lulua/couple.webp",
+    alt: "A couple arriving on the private jetty at golden hour, hand in hand",
+    kind: "full",
+    title: "Arrival",
+    caption: "The quiet moment the brand sells. Golden hour, hand in hand, the island ahead.",
+  },
+  {
+    src: "/media/lulua/health.webp",
+    alt: "A woman at yoga on the private deck, facing the Gulf",
+    kind: "split",
+    title: "Wellbeing",
+    caption: "Mornings here start on the mat, facing the water. The brand doesn't sell wellness, it builds for it.",
+  },
+  {
+    src: "/media/lulua/old.webp",
+    alt: "An older couple carrying surfboards down to the water",
+    kind: "split",
+    title: "Longevity",
+    caption: "The piece this residence is really made for. A life that stays in the water, not just by it.",
+  },
+  {
+    src: "/media/lulua/day-shot.webp",
+    alt: "Low aerial close-up of two floors at midday",
+    kind: "full",
+    title: "In the light",
+    caption: "The same architecture read in a different hour. The nacre of the fins picks up the midday sea.",
+  },
+  {
+    src: "/media/lulua/hoarding.webp",
+    alt: "Sheikh Zayed Road billboard mock: 'One island. One residence.'",
+    kind: "split",
+    title: "Sheikh Zayed Road",
+    caption: "'One island. One residence.' on Dubai's loudest road. The brand earns its space by taking less of it.",
+  },
+  {
+    src: "/media/lulua/social.webp",
+    alt: "Instagram story set in English and Arabic",
+    kind: "split",
+    title: "Social",
+    caption: "English and Arabic, one look. 'Rare by nature' and نادرة بطبيعتها running the same system.",
+  },
+  {
+    src: "/media/lulua/campaign.webp",
+    alt: "Launch campaign artwork, print and digital",
+    kind: "full",
+    title: "Campaign",
+    caption: "The pulled-through system in use. Print, digital, OOH and in-store, one voice across the lot.",
+  },
+  {
+    src: "/media/lulua/video.mp4",
+    poster: "/media/lulua/external.webp",
+    alt: "60-second brand film: the pearl unfurls to reveal the residence",
+    kind: "full",
+    title: "Brand film",
+    caption: "From drawing concept to CGI",
+  },
+],
 
-    {
-      src: "/media/lulua/couple.webp",
-      alt: "A couple arriving on the private jetty at golden hour",
-      kind: "full",
-      title: "Arrival",
-      caption: "The quiet moment the brand sells. Golden hour, hand in hand, the island ahead.",
-    },
-    {
-      src: "/media/lulua/hoarding.webp",
-      alt: "Sheikh Zayed Road billboard mock  -  \u2018One island. One residence.\u2019",
-      kind: "split",
-      title: "SZR",
-      caption: "\u2018One island. One residence.\u2019 on Dubai\u2019s loudest road. The brand earns its space by taking less of it.",
-    },
-    {
-      src: "/media/lulua/social.webp",
-      alt: "Instagram story set, English and Arabic",
-      kind: "split",
-      title: "Social",
-      caption: "English and Arabic, one look. \u2018Rare by nature\u2019 and \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627 running the same system.",
-    },
-    {
-      src: "/media/lulua/day-shot.webp",
-      alt: "Mid noon shot",
-      kind: "full",
-      title: "2 floors close up",
-      caption: "2 floors close up, lower drone view shot",
-    },
-    {
-      src: "/media/lulua/brochure.webp",
-      alt: "Printed brochure: cover and opening spread",
-      kind: "full",
-      title: "Brochure",
-      caption: "Cover and opening spread. Deep green stock, bronze foil mark, F37 British Serif on Objektiv Mk1.",
-    },
-    {
-      src: "/media/lulua/video.mp4",
-      poster: "/media/lulua/external.webp",
-      alt: "60-second brand film  -  the pearl unfurls to reveal the residence",
-      kind: "full",
-      title: "Brand film",
-      caption: "Opens with the pearl shell slowly unfurling into the residence; closes on the mark and the line.",
-    },
-  ],
-
-  details: [
-    {
-      heading: "The brand",
-      bullets: [
-        "Name: Lu\u2019lu\u2019a  -  pearl, in Arabic",
-        "Line: \u2018Rare by nature\u2019 / \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627",
-        "Hero line: \u2018One island. One residence.\u2019",
-        "Palette: deep racing green, stone, bronze, warm interior amber",
-        "Type: F37 British Serif paired with Objektiv Mk1",
-        "A quiet, serif-register voice, reserved for buyer-facing moments",
-      ],
-    },
-    {
-      heading: "The launch set",
-      lead:
-        "Twelve matched pieces that read as one real place, built on a single reference frame.",
-      bullets: [
-        "Hero dusk render, water-level, golden-hour arrival, drone balcony",
-        "Interior detail, dining room, rooftop and night aerial",
-        "Billboard mock on Sheikh Zayed Road and metro takeover",
-        "Printed launch brochure, cover and opening spread",
-        "Social system in English and Arabic",
-      ],
-    },
-    {
-      heading: "The method",
-      lead:
-        "Consistency across generative work is not a prompt  -  it is a workflow.",
-      bullets: [
-        "One approved hero image as the pixel-level style anchor on every generation",
-        "A locked style prompt pasted into every new image call, naming the architecture, light, materials, colour grade and negatives",
-        "Veo 3 Frames to Video for the brand film, with a first and last frame on every clip",
-        "Every output reviewed against the hero before it joined the set",
-        "AI stack: GPT-6 Astra for stills, Veo 3 for motion",
-      ],
-    },
-  ],
+details: [
+  {
+    heading: "The brand",
+    bullets: [
+      "Name: Lu'lu'a. Pearl, in Arabic",
+      "Line: 'Rare by nature' / نادرة بطبيعتها",
+      "Hero line: 'One island. One residence.'",
+      "Palette: Deep Twilight Gulf, Mother of Pearl, Champagne Gold, Arabian Gulf Cerulean",
+      "Type: DM Serif Display paired with DM Sans",
+      "A quiet, serif-register voice, reserved for buyer-facing moments",
+    ],
+  },
+  {
+    heading: "The launch set",
+    lead:
+      "A matched set of pieces that read as one real place, built on a single reference frame.",
+    bullets: [
+      "Hero dusk render and architectural elevation drawing (the drawing-to-reality concept)",
+      "Water-level, golden-hour arrival, drone balcony with interior reveal",
+      "Lifestyle set: wellbeing, longevity and the midday light",
+      "Billboard mock on Sheikh Zayed Road and the social system in English and Arabic",
+      "Printed launch brochure, cover and opening spread",
+      "60-second brand film with the pearl-unfurling opener",
+    ],
+  },
+  {
+    heading: "The method",
+    lead:
+      "Consistency across generative work is not a prompt. It is a workflow.",
+    bullets: [
+      "One approved hero image as the pixel-level style anchor on every generation",
+      "A locked style prompt pasted into every new image call, naming the architecture, light, materials, colour grade and negatives",
+      "Veo 3 Frames to Video for the brand film, with a first and last frame on every clip",
+      "Every output reviewed against the hero before it joined the set",
+      "AI stack: GPT image models for stills, Veo 3 for motion, plus my own tools Recast and Creative Loop layered on top",
+    ],
+  },
+],
    strip: [
       { src: "/media/lulua/slide1.webp", alt: "Brand Guidelines"},
       { src: "/media/lulua/slide2.webp", alt: "Brand Guidelines" },
