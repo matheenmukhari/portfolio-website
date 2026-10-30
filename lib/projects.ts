@@ -174,12 +174,14 @@ export const PROJECTS: Project[] = [
   body: [
     "One Port Street started as an off-plan launch and followed the full Select Property cycle: sell, build, manage. The development is now complete, tenants are living there, and the leasing team manages it. Every piece of creative I produced had to work across that timeline. The launch collateral sold apartments that did not exist yet. The website now serves people looking for a home this month.",
     "The site leads with the apartments. Availability, layouts and monthly pricing sit high on the page, where somebody deciding whether to book a viewing can reach them in a single scroll. The atmosphere works underneath that rather than in front of it, and the neighbourhood is treated as part of the offer instead of a closing paragraph.",
+    "Underneath the site sat the full launch set: the launch identity, a printed sales brochure, flyers for local drops, floor plan sheets, social campaigns in static and film, construction-site hoardings and the digital banners that fed every landing page. One visual system, one set of masters, one standard for the CGI and photography. A brochure on a desk, a hoarding on Great Ancoats Street, a story on Instagram and the website all read as one place. Launched off-plan, sold through, built, and now fully tenanted and managed. The brand carried through the whole lifecycle.",
+    "The project ran across a team of seven: two designers reporting to me, a marketing head, a content manager, and three external partners. Clicky handled the digital marketing campaign. OurStudio produced the CGI. Freelance photographers covered the completed building shoot and lifestyle photography.",
   ],
 
   outcome: [
-    { label: "International Property Awards", value: "Apartment of the Year" },
-    { label: "International Property Awards", value: "5-star, Best 20+ Units" },
-    { label: "Prolific North Marketing Awards", value: "Best Campaign" },
+    { label: "International Property Awards 2024", value: "Apartment of the Year" },
+    { label: "International Property Awards 2024", value: "5-star, Best 20+ Units" },
+    { label: "Prolific North Marketing Awards 2024", value: "Best Campaign (with Clicky)" },
   ],
 
   role: [

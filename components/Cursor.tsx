@@ -37,7 +37,7 @@ export default function Cursor() {
         "": { size: 10, text: "", fill: true },
         link: { size: 34, text: "", fill: false },
         view: { size: 92, text: "VIEW", fill: true },
-        drag: { size: 92, text: "DRAG", fill: true },
+        drag: { size: 92, text: "SCROLL", fill: true },
         close: { size: 78, text: "CLOSE", fill: true },
         hide: { size: 0, text: "", fill: true },
       };

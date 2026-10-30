@@ -32,15 +32,15 @@ const archivo = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://matheenbukhari.com"),
+  metadataBase: new URL("https://matheenbukhari.online"),
   title: {
-    default: "Matheen Bukhari — Creative Manager, Dubai",
-    template: "%s — Matheen Bukhari",
+    default: "Matheen Bukhari - Creative Manager, Dubai",
+    template: "%s - Matheen Bukhari",
   },
   description:
     "Creative Manager with 20+ years across property, retail and publishing in the UAE, UK and Asia. Brand, campaigns, digital and AI-enabled creative production.",
   openGraph: {
-    title: "Matheen Bukhari — Creative Manager, Dubai",
+    title: "Matheen Bukhari - Creative Manager, Dubai",
     description:
       "Creative direction, brand systems and digital delivery for property brands across the UK, the Gulf and Asia.",
     type: "website",
