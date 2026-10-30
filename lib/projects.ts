@@ -173,8 +173,8 @@ export const PROJECTS: Project[] = [
     "From off-plan launch to completed building to managed tenancy. One visual system across every stage.",
 
   body: [
-    "One Port Street started as an off-plan launch and followed the full Select Property cycle: sell, build, manage. The development is now complete, tenants are living there, and the leasing team manages it. Every piece of creative I produced had to work across that timeline. The launch collateral sold apartments that did not exist yet. The website now serves people looking for a home this month.",
-    "Underneath the site sat the full launch set: the launch identity, a printed sales brochure, flyers for local drops, floor plan sheets, social campaigns in static and film, construction-site hoardings and the digital banners that fed every landing page. One visual system, one set of masters, one standard for the CGI and photography. A brochure on a desk, a hoarding on Great Ancoats Street, a story on Instagram and the website all read as one place. Launched off-plan, sold through, built, and now fully tenanted and managed. The brand carried through the whole lifecycle.",
+    "One Port Street started as an off-plan launch and followed the full Select Property cycle: sell, build, manage. ",
+    "Underneath the site sat the full launch set: the launch identity, a printed sales brochure, flyers for local drops, floor plan sheets, social campaigns in static and film, construction-site hoardings and the digital banners that fed every landing page. One visual system, one set of masters, one standard for the CGI and photography.  Launched off-plan, sold through, built, and now fully tenanted and managed.",
     "The project ran across a team of seven: two designers, a marketing head, a content manager, and three external partners. Clicky handled the digital marketing campaign. OurStudio produced the CGI. Freelance photographers covered the completed building shoot and lifestyle photography.",
   ],
 
