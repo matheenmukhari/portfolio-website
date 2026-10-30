@@ -512,7 +512,7 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
           {outcome.map((stat) => (
             <div key={stat.label} className="col-span-12 md:col-span-4">
               <p
-                className="stat-value type-display tnum"
+                className={`stat-value tnum ${stat.value.length > 8 ? "type-h3" : "type-display"}`}
                 data-value={stat.value}
                 style={{ fontVariationSettings: '"opsz" 60, "wght" 420' }}
               >
