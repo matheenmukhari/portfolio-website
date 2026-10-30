@@ -343,17 +343,18 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
                         <p className="mt-3">{project.credits}</p>
                       </>
                     )}
-                    {project.link && (
+                    {(project.links ?? (project.link ? [{ label: project.linkLabel ?? "Visit site", url: project.link }] : [])).map((l) => (
                       <a
-                        href={project.link}
+                        key={l.url}
+                        href={l.url}
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         data-cursor="link"
                         className="type-micro mt-6 inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
                       >
-                        {project.linkLabel ?? "Visit site"}
+                        {l.label}
                       </a>
-                    )}
+                    ))}
                   </div>
                 </div>
               ) : (
@@ -379,17 +380,18 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
                           <p className="mt-3">{project.credits}</p>
                         </>
                       )}
-                      {project.link && (
+                      {(project.links ?? (project.link ? [{ label: project.linkLabel ?? "Visit site", url: project.link }] : [])).map((l) => (
                         <a
-                          href={project.link}
+                          key={l.url}
+                          href={l.url}
                           target="_blank"
-                          rel="noreferrer"
+                          rel="noopener noreferrer"
                           data-cursor="link"
                           className="type-micro mt-6 inline-block border-b border-ink pb-1 hover:border-ochre hover:text-ochre"
                         >
-                          {project.linkLabel ?? "Visit site"}
+                          {l.label}
                         </a>
-                      )}
+                      ))}
                     </div>
                   </div>
                 </div>
