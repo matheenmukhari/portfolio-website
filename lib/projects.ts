@@ -520,20 +520,6 @@ gallery: [
     title: "Brand film",
     caption: "From drawing concept to CGI",
   },
-],
-
-details: [
-  {
-    heading: "The brand",
-    bullets: [
-      "Name: Lu'lu'a. Pearl, in Arabic",
-      "Line: 'Rare by nature' / نادرة بطبيعتها",
-      "Hero line: 'One island. One residence.'",
-      "Palette: Deep Twilight Gulf, Mother of Pearl, Champagne Gold, Arabian Gulf Cerulean",
-      "Type: DM Serif Display paired with DM Sans",
-      "A quiet, serif-register voice, reserved for buyer-facing moments",
-    ],
-  },
   {
     src: "/media/lulua/hoarding.webp",
     alt: "Sheikh Zayed Road billboard mock: 'One island. One residence.'",
@@ -548,7 +534,6 @@ details: [
     title: "Social",
     caption: "English and Arabic, one look. 'Rare by nature' and نادرة بطبيعتها running the same system.",
   },
-  
   {
     src: "/media/lulua/campaign.webp",
     alt: "Launch campaign artwork, print and digital",
@@ -570,7 +555,20 @@ details: [
     title: "Arrival",
     caption: "The quiet moment the brand sells. Golden hour, hand in hand, the island ahead.",
   },
-  
+],
+
+details: [
+  {
+    heading: "The brand",
+    bullets: [
+      "Name: Lu'lu'a. Pearl, in Arabic",
+      "Line: 'Rare by nature' / نادرة بطبيعتها",
+      "Hero line: 'One island. One residence.'",
+      "Palette: Deep Twilight Gulf, Mother of Pearl, Champagne Gold, Arabian Gulf Cerulean",
+      "Type: DM Serif Display paired with DM Sans",
+      "A quiet, serif-register voice, reserved for buyer-facing moments",
+    ],
+  },
   {
     heading: "The launch set",
     lead:
