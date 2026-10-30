@@ -68,7 +68,7 @@ export type MediaItem = {
   poster?: string;
 };
 
-/** Exactly three — the stepped positions in the pinned split. */
+/** Exactly three  -  the stepped positions in the pinned split. */
 export type Reel = [MediaItem, MediaItem, MediaItem];
 
 export type Outcome = { label: string; value: string };
@@ -166,15 +166,20 @@ export const PROJECTS: Project[] = [
   featured: true,
 
   summary:
-    "The full launch for a Northern Quarter rental development: identity, website, landing pages, brochure, flyers, floor plans, social, hoardings and construction-site OOH \u2014 one visual system across every piece.",
+    "The full launch for a Northern Quarter rental development: identity, website, landing pages, brochure, flyers, floor plans, social, hoardings and construction-site OOH  -  one visual system across every piece.",
 
   brief:
-    "A rental building in the Northern Quarter, presented the way you would present somewhere to live rather than a tenancy.",
+    "From off-plan launch to completed building to managed tenancy. One visual system across every stage.",
 
   body: [
-    "One Port Street sits in the Northern Quarter, and that address does a lot of the selling. The audience is renting rather than buying, which changes the questions entirely \u2014 what is available, what does it cost this month, how soon can I move, what is actually on my doorstep. None of that is served by leading with amenity photography.",
-    "So the site leads with the apartments. Availability, layouts and monthly pricing sit high on the page, where somebody deciding whether to book a viewing can reach them in a single scroll. The atmosphere works underneath that rather than in front of it, and the neighbourhood is treated as part of the offer instead of a closing paragraph.",
-    "Underneath the site sat the full launch set: the launch identity, a printed sales brochure, flyers for local drops, floor plan sheets, social campaigns in static and film, construction-site hoardings and the digital banners that fed every landing page. One visual system, one set of masters, one standard for the CGI and photography \u2014 so a brochure on a desk, a hoarding on Great Ancoats Street, a story on Instagram and the website all read as one place.",
+    "One Port Street started as an off-plan launch and followed the full Select Property cycle: sell, build, manage. The development is now complete, tenants are living there, and the leasing team manages it. Every piece of creative I produced had to work across that timeline. The launch collateral sold apartments that did not exist yet. The website now serves people looking for a home this month.",
+    "The site leads with the apartments. Availability, layouts and monthly pricing sit high on the page, where somebody deciding whether to book a viewing can reach them in a single scroll. The atmosphere works underneath that rather than in front of it, and the neighbourhood is treated as part of the offer instead of a closing paragraph.",
+  ],
+
+  outcome: [
+    { label: "International Property Awards", value: "Apartment Development of the Year" },
+    { label: "International Property Awards", value: "Best Residential Development 20+ Units - 5-star" },
+    { label: "Prolific North Marketing Awards", value: "Best Property & Construction Campaign" },
   ],
 
   role: [
@@ -193,7 +198,7 @@ export const PROJECTS: Project[] = [
 
   points: [
     "A full launch set, from website to hoarding, built on one visual system",
-    "Availability and monthly pricing above atmosphere \u2014 the site built around rental intent",
+    "Availability and monthly pricing above atmosphere  -  the site built around rental intent",
     "Launch identity, CGI direction and photography art direction held to one standard across every piece",
     "The Northern Quarter treated as the headline, not a footnote",
     "Delivered from Dubai for a Manchester launch, across in-house team, agencies and local production partners",
@@ -204,26 +209,34 @@ export const PROJECTS: Project[] = [
   still: "/media/ops/still.webp",
 
   reel: [
-    { src: "/media/ops/i1.webp", alt: "One Port Street homepage" },
-    { src: "/media/ops/i2.webp", alt: "Apartment availability and pricing" },
-    { src: "/media/ops/i3.webp", alt: "Booking a viewing" },
+    { src: "/media/ops/i1.webp", alt: "One Port website still" },
+    { src: "/media/ops/i2.webp", alt: "Layout styling" },
+    { src: "/media/ops/slide1.webp", alt: "One Bed Apt" },
   ],
 
   gallery: [
     {
-      src: "/media/ops/wide.webp",
-      alt: "One Port Street building, Northern Quarter",
+      src: "/media/ops/slide5.webp",
+      alt: "One Port Street Photography Direction",
       kind: "full",
       title: "The address",
       caption:
-        "The Northern Quarter does a lot of the selling. The brand steps back and lets the location lead.",
+        "Editorial style photography moodboard, direction",
+    },
+    {
+      src: "/media/ops/ops-cgi-comile.mp4",
+      alt: "CGI Shoot",
+      kind: "full",
+      title: "CGI walkthrough",
+      caption:
+        "Slow Cinematic Camera Drift viideo creation using CGIs",
     },
     {
       src: "/media/ops/gallery1.webp",
       alt: "Apartment interior",
       kind: "split",
       title: "Interior",
-      caption: "Art-directed photography \u2014 real spaces, honest finish.",
+      caption: "Art-directed photography  -  real spaces, honest finish.",
     },
     {
       src: "/media/ops/gallery2.webp",
@@ -247,11 +260,11 @@ export const PROJECTS: Project[] = [
       kind: "split",
       title: "Social film",
       caption:
-        "Short-form motion for Instagram and TikTok \u2014 the launch set in moving form.",
+        "Short-form motion for Instagram and TikTok  -  the launch set in moving form.",
     },
     {
       src: "/media/ops/social.webp",
-      alt: "Social campaign frames \u2014 English static set",
+      alt: "Social campaign frames  -  English static set",
       kind: "split",
       title: "Social system",
       caption:
@@ -261,16 +274,19 @@ export const PROJECTS: Project[] = [
 
   strip: [
     { src: "/media/ops/slide8.webp",       alt: "Launch campaign artwork" },
-    { src: "/media/ops/overview.webp",     alt: "Launch overview spread" },
-    { src: "/media/ops/slide1.webp",       alt: "Sales brochure, inside spread" },
-    { src: "/media/ops/art-direction.webp", alt: "Art direction reference sheet" },
-    { src: "/media/ops/slide2.webp",       alt: "Apartment photography art-direction" },
-    { src: "/media/ops/slide3.webp",       alt: "Floor plan sheet in brand style" },
-    { src: "/media/ops/slide4.webp",       alt: "Print collateral: flyers and leaflets" },
-    { src: "/media/ops/grid.webp",         alt: "Launch grid and visual system" },
-    { src: "/media/ops/slide5.webp",       alt: "Digital campaign units and banners" },
-    { src: "/media/ops/slide6.webp",       alt: "Interior detail photography" },
-    { src: "/media/ops/slide7.webp",       alt: "Construction-site hoarding" },
+    { src: "/media/ops/event2.webp",     alt: "Usage" },
+    { src: "/media/ops/slide6.webp",       alt: "Sales brochure, inside spread" },
+    { src: "/media/ops/i3.webp", alt: "Art direction reference sheet" },
+    { src: "/media/ops/poolshot.webp",       alt: "OPS process" },
+    { src: "/media/ops/gallery3.webp",       alt: "OPS process" },
+    { src: "/media/ops/overview.webp",       alt: "OPS process" },
+    { src: "/media/ops/logo.webp",         alt: "OPS process" },
+    { src: "/media/ops/grid.webp",       alt: "OPS process" },
+    { src: "/media/ops/wide.webp",       alt: "OPS process" },
+    { src: "/media/ops/slide2.webp",       alt: "OPS process" },
+    { src: "/media/ops/slide4.webp",       alt: "OPS process" },
+     { src: "/media/ops/slide3.webp",       alt: "OPS Floorplan" },
+    { src: "/media/ops/event3.webp",       alt: "Event" },
   ],
 
   details: [
@@ -297,7 +313,7 @@ export const PROJECTS: Project[] = [
         "Art direction for apartment and amenity photography, briefing and signoff",
         "CGI direction for building exteriors and interiors",
         "Typographic system and photography grid shared between print and digital",
-        "A set of masters \u2014 one brochure, one photo set, one grid \u2014 feeding every piece downstream",
+        "A set of masters  -  one brochure, one photo set, one grid  -  feeding every piece downstream",
       ],
     },
     {
@@ -442,7 +458,7 @@ export const PROJECTS: Project[] = [
 
   body: [
     "Lu\u2019lu\u2019a is Arabic for pearl. For thousands of years the greatest treasure of the Gulf came from beneath its waters, and that heritage gave the concept its form: a single residence on a single island, held in four tall curved white sail-fins that read, closed, as a pearl shell and, opened, as the home itself.",
-    "From there it was treated as a real launch. One name. One line, \u2018Rare by nature\u2019 \u2014 \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627 in Arabic, designed rather than translated. One look carried through every piece: hero architectural renders at dusk, interiors, campaign key visuals, a Sheikh Zayed Road billboard, a printed brochure, social, and a 60-second brand film whose opening shot is the pearl shell slowly unfurling to reveal the building inside.",
+    "From there it was treated as a real launch. One name. One line, \u2018Rare by nature\u2019  -  \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627 in Arabic, designed rather than translated. One look carried through every piece: hero architectural renders at dusk, interiors, campaign key visuals, a Sheikh Zayed Road billboard, a printed brochure, social, and a 60-second brand film whose opening shot is the pearl shell slowly unfurling to reveal the building inside.",
   ],
 
   role: [
@@ -458,7 +474,7 @@ export const PROJECTS: Project[] = [
   note: "Self-initiated. The development is imagined; every image and film is AI-generated and art-directed through a locked workflow built for this project.",
 
   points: [
-    "Concept, name and one campaign line \u2014 \u2018Rare by nature\u2019 \u2014 carried across every piece",
+    "Concept, name and one campaign line  -  \u2018Rare by nature\u2019  -  carried across every piece",
     "Arabic designed, not translated: \u2018Rare by nature\u2019 became \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627",
     "A locked style system that holds the same building, materials and light across every image and clip",
     "A 60-second brand film opening with the pearl shell unfurling into the residence",
@@ -486,7 +502,7 @@ export const PROJECTS: Project[] = [
     },
     {
       src: "/media/lulua/hoarding.webp",
-      alt: "Sheikh Zayed Road billboard mock \u2014 \u2018One island. One residence.\u2019",
+      alt: "Sheikh Zayed Road billboard mock  -  \u2018One island. One residence.\u2019",
       kind: "split",
       title: "SZR",
       caption: "\u2018One island. One residence.\u2019 on Dubai\u2019s loudest road. The brand earns its space by taking less of it.",
@@ -515,7 +531,7 @@ export const PROJECTS: Project[] = [
     {
       src: "/media/lulua/video.mp4",
       poster: "/media/lulua/external.webp",
-      alt: "60-second brand film \u2014 the pearl unfurls to reveal the residence",
+      alt: "60-second brand film  -  the pearl unfurls to reveal the residence",
       kind: "full",
       title: "Brand film",
       caption: "Opens with the pearl shell slowly unfurling into the residence; closes on the mark and the line.",
@@ -526,7 +542,7 @@ export const PROJECTS: Project[] = [
     {
       heading: "The brand",
       bullets: [
-        "Name: Lu\u2019lu\u2019a \u2014 pearl, in Arabic",
+        "Name: Lu\u2019lu\u2019a  -  pearl, in Arabic",
         "Line: \u2018Rare by nature\u2019 / \u0646\u0627\u062f\u0631\u0629 \u0628\u0637\u0628\u064a\u0639\u062a\u0647\u0627",
         "Hero line: \u2018One island. One residence.\u2019",
         "Palette: deep racing green, stone, bronze, warm interior amber",
@@ -549,7 +565,7 @@ export const PROJECTS: Project[] = [
     {
       heading: "The method",
       lead:
-        "Consistency across generative work is not a prompt \u2014 it is a workflow.",
+        "Consistency across generative work is not a prompt  -  it is a workflow.",
       bullets: [
         "One approved hero image as the pixel-level style anchor on every generation",
         "A locked style prompt pasted into every new image call, naming the architecture, light, materials, colour grade and negatives",
@@ -627,9 +643,9 @@ export const PROJECTS: Project[] = [
     brief:
       "Birmingham asks a question Manchester no longer has to: *why here?*",
     body: [
-      "For an overseas investor, Birmingham often needs establishing before the building does. Manchester has years of coverage behind it; Birmingham's case — regeneration, transport, rental demand, the gap between price and yield — still has to be made. The launch had to answer the city before it answered the apartment.",
+      "For an overseas investor, Birmingham often needs establishing before the building does. Manchester has years of coverage behind it; Birmingham's case  -  regeneration, transport, rental demand, the gap between price and yield  -  still has to be made. The launch had to answer the city before it answered the apartment.",
       "So the site opens wide and narrows: the city, then the location, then the building, then the apartment you would actually reserve. The investment rationale, floor plans and pricing sit on the page rather than behind a form, because an investor comparing three cities will not fill in a form to get the basics.",
-      "I led the creative direction and design, ran the build, and produced the collateral the sales team take into meetings — brochures, floor plans and price lists — kept aligned with the site so nothing contradicts itself between a screen and a printed page.",
+      "I led the creative direction and design, ran the build, and produced the collateral the sales team take into meetings  -  brochures, floor plans and price lists  -  kept aligned with the site so nothing contradicts itself between a screen and a printed page.",
     ],
     role: ["Creative direction", "Web design", "Build oversight", "Sales collateral"],
     note: "The city's case before the building's",
@@ -837,9 +853,9 @@ export const PROJECTS: Project[] = [
     brief:
       "A manufacturer's site that shows the *work*, not the factory - *Built with Framer AI*",
     body: [
-      "Global Furnovate manufactures furniture for interior projects, and the people buying are designers, contractors and developers rather than the public. That audience is not browsing. They are checking whether the finish quality is there, whether the range covers what a project needs, and whether the company can handle the volume — then looking for someone to talk to.",
+      "Global Furnovate manufactures furniture for interior projects, and the people buying are designers, contractors and developers rather than the public. That audience is not browsing. They are checking whether the finish quality is there, whether the range covers what a project needs, and whether the company can handle the volume  -  then looking for someone to talk to.",
       "The site is built around the work itself: ranges and finishes shown properly, project photography given room, and a short route to an enquiry from any page. I kept the manufacturing story brief, because capability matters to this audience only once the work has earned their attention.",
-      "Built in Framer so the team can add ranges and swap imagery themselves without waiting on a developer — the right trade for a business that updates its catalogue more often than its structure. I handled the direction, design and build, along with the content structure and on-page SEO.",
+      "Built in Framer so the team can add ranges and swap imagery themselves without waiting on a developer  -  the right trade for a business that updates its catalogue more often than its structure. I handled the direction, design and build, along with the content structure and on-page SEO.",
     ],
     role: ["Creative direction", "Web design", "Concept", "Framer AI"],
     note: "Built so the team can keep it current themselves",
@@ -899,15 +915,15 @@ points: [
     poster: "/media/cl/poster.webp",
     still: "/media/cl/still.webp",
     reel: [
-      { src: "/media/cl/i1.webp", alt: "Creative Loop overview — live briefs, reviews and insights" },
-      { src: "/media/cl/i2.webp", alt: "Brief Strategist — AI-guided interview" },
-      { src: "/media/cl/i3.webp", alt: "Approved brief — objective, audience, proposition and KPI scored" },
+      { src: "/media/cl/i1.webp", alt: "Creative Loop overview  -  live briefs, reviews and insights" },
+      { src: "/media/cl/i2.webp", alt: "Brief Strategist  -  AI-guided interview" },
+      { src: "/media/cl/i3.webp", alt: "Approved brief  -  objective, audience, proposition and KPI scored" },
     ],
     gallery: [
-      { src: "/media/cl/wide.webp", alt: "Creative Review — designs checked against brief and brand", kind: "full" },
-      { src: "/media/cl/still.webp", alt: "Feedback — five opinions merged into one change list", kind: "split" },
-      { src: "/media/cl/gallery2.webp", alt: "Learning Panel — which creative angle drove qualified leads", kind: "split" },
-      { src: "/media/cl/social.mp4", alt: "Pre-flight — nothing launches until every asset passes", kind: "full" },
+      { src: "/media/cl/wide.webp", alt: "Creative Review  -  designs checked against brief and brand", kind: "full" },
+      { src: "/media/cl/still.webp", alt: "Feedback  -  five opinions merged into one change list", kind: "split" },
+      { src: "/media/cl/gallery2.webp", alt: "Learning Panel  -  which creative angle drove qualified leads", kind: "split" },
+      { src: "/media/cl/social.mp4", alt: "Pre-flight  -  nothing launches until every asset passes", kind: "full" },
     ],
     strip: [
       { src: "/media/cl/slide1.webp", alt: "Dashboard detail" },
@@ -1085,7 +1101,7 @@ points: [
     "Building high-impact pre-launch momentum demands a visual language rooted in subtlety, texture, and quiet authority over traditional high-volume imagery.",
   body: [
     "This project establishes a disciplined creative direction driven by hard natural lighting, deep shadow play, and subtle film grain to construct an evocative editorial aesthetic.",
-    "By defining an uncompromising style framework—anchored around stone, steam, and raw human presence—the production yields a consistent, high-fashion atmosphere across every asset without relying on conventional visual tropes."
+    "By defining an uncompromising style framework - anchored around stone, steam, and raw human presence - the production yields a consistent, high-fashion atmosphere across every asset without relying on conventional visual tropes."
   ],
   role: ["Creative governance", "Art Direction", "AI Image Production", "Re-touch"],
   note: "Self-initiated concept, executed via controlled prompt architecture and manual editorial composition.",
@@ -1116,7 +1132,7 @@ points: [
     tags: ["Web design", "Art direction", "CMS", "SEO", "Photography"],
     featured: true,
     summary:
-      "Search hundreds of names for the one that's yours — instantly.",
+      "Search hundreds of names for the one that's yours  -  instantly.",
     brief:
       "Voters searching for their own name in an electoral roll faced a wall of *scanned PDFs* that no browser could search.",
     body: [
@@ -1178,7 +1194,7 @@ points: [
     poster: "/media/gai/i1.webp",
     still: "/media/gai/base.webp",
     reel: [
-      { src: "/media/gai/i1.webp", alt: "Original showroom photograph", caption: "Original photograph — before any AI editing" },
+      { src: "/media/gai/i1.webp", alt: "Original showroom photograph", caption: "Original photograph  -  before any AI editing" },
     ],
     details: [
       {
@@ -1341,7 +1357,7 @@ export type WorkItem = {
 };
 
 /**
- * Lighter entries — grid presence without a full case study behind them.
+ * Lighter entries  -  grid presence without a full case study behind them.
  * These still need real images; each one currently points at a placeholder.
  */
 const ADDITIONAL: WorkItem[] = [
