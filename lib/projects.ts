@@ -492,61 +492,12 @@ still: "/media/lulua/day-shot.webp",
 
 reel: [
   { src: "/media/lulua/external.webp", alt: "Dusk hero: the four sail-fin residence on its private island" },
-  { src: "/media/lulua/drawing.webp",  alt: "Architectural ink drawing of the Lu'lu'a residence" },
+  { src: "/media/lulua/wellness.webp",  alt: "Balcony Calmn" },
   { src: "/media/lulua/balcony.webp",  alt: "Drone view into the main living room from outside the balcony" },
   { src: "/media/lulua/zoom.webp",     alt: "Low aerial drone view of the four fins" },
 ],
 
 gallery: [
-  {
-    src: "/media/lulua/external.webp",
-    alt: "Dusk hero: the four sail-fin residence on its private island",
-    kind: "full",
-    title: "The residence",
-    caption: "Four tall curved sail-fins carry the pearl idea into architecture. One residence, one island, one evening.",
-  },
-  {
-    src: "/media/lulua/drawing.webp",
-    alt: "Architectural ink drawing of the Lu'lu'a residence on cream vellum",
-    kind: "full",
-    title: "Elevation study",
-    caption: "The same scene drawn as an architect's ink sketch. The starting frame of the brand film's drawing-to-reality reveal.",
-  },
-  {
-    src: "/media/lulua/water-level.webp",
-    alt: "Water-level view of the residence from a drifting boat at blue hour",
-    kind: "split",
-    title: "Water level",
-    caption: "24mm from a dinghy, blue hour. The approach you only get by sea.",
-  },
-  {
-    src: "/media/lulua/balcony.webp",
-    alt: "Drone view 3 metres outside the main balcony, warm interior visible through the open glass",
-    kind: "split",
-    title: "The way in",
-    caption: "A drone outside the balcony holds the warm interior and the dusk sea in one frame. Travertine, Calacatta, bronze, walnut, boucle.",
-  },
-  {
-    src: "/media/lulua/couple.webp",
-    alt: "A couple arriving on the private jetty at golden hour, hand in hand",
-    kind: "full",
-    title: "Arrival",
-    caption: "The quiet moment the brand sells. Golden hour, hand in hand, the island ahead.",
-  },
-  {
-    src: "/media/lulua/health.webp",
-    alt: "A woman at yoga on the private deck, facing the Gulf",
-    kind: "split",
-    title: "Wellbeing",
-    caption: "Mornings here start on the mat, facing the water. The brand doesn't sell wellness, it builds for it.",
-  },
-  {
-    src: "/media/lulua/old.webp",
-    alt: "An older couple carrying surfboards down to the water",
-    kind: "split",
-    title: "Longevity",
-    caption: "The piece this residence is really made for. A life that stays in the water, not just by it.",
-  },
   {
     src: "/media/lulua/day-shot.webp",
     alt: "Low aerial close-up of two floors at midday",
@@ -555,25 +506,11 @@ gallery: [
     caption: "The same architecture read in a different hour. The nacre of the fins picks up the midday sea.",
   },
   {
-    src: "/media/lulua/hoarding.webp",
-    alt: "Sheikh Zayed Road billboard mock: 'One island. One residence.'",
-    kind: "split",
-    title: "Sheikh Zayed Road",
-    caption: "'One island. One residence.' on Dubai's loudest road. The brand earns its space by taking less of it.",
-  },
-  {
-    src: "/media/lulua/social.webp",
-    alt: "Instagram story set in English and Arabic",
-    kind: "split",
-    title: "Social",
-    caption: "English and Arabic, one look. 'Rare by nature' and نادرة بطبيعتها running the same system.",
-  },
-  {
-    src: "/media/lulua/campaign.webp",
-    alt: "Launch campaign artwork, print and digital",
+    src: "/media/lulua/health.webp",
+    alt: "Architectural ink drawing of the Lu'lu'a residence on cream vellum",
     kind: "full",
-    title: "Campaign",
-    caption: "The pulled-through system in use. Print, digital, OOH and in-store, one voice across the lot.",
+    title: "Wellness",
+    caption: "Yoga in A quite moment.",
   },
   {
     src: "/media/lulua/video.mp4",
@@ -597,6 +534,43 @@ details: [
       "A quiet, serif-register voice, reserved for buyer-facing moments",
     ],
   },
+  {
+    src: "/media/lulua/hoarding.webp",
+    alt: "Sheikh Zayed Road billboard mock: 'One island. One residence.'",
+    kind: "split",
+    title: "Sheikh Zayed Road",
+    caption: "'One island. One residence.' on Dubai's loudest road. The brand earns its space by taking less of it.",
+  },
+  {
+    src: "/media/lulua/social.webp",
+    alt: "Instagram story set in English and Arabic",
+    kind: "split",
+    title: "Social",
+    caption: "English and Arabic, one look. 'Rare by nature' and نادرة بطبيعتها running the same system.",
+  },
+  
+  {
+    src: "/media/lulua/campaign.webp",
+    alt: "Launch campaign artwork, print and digital",
+    kind: "full",
+    title: "Campaign",
+    caption: "The pulled-through system in use. Print, digital, OOH and in-store, one voice across the lot.",
+  },
+  {
+    src: "/media/lulua/old.webp",
+    alt: "An older couple carrying surfboards down to the water",
+    kind: "split",
+    title: "Longevity",
+    caption: "The piece this residence is really made for. A life that stays in the water, not just by it.",
+  },
+  {
+    src: "/media/lulua/couple.webp",
+    alt: "Low aerial close-up of two floors at midday",
+    kind: "split",
+    title: "Arrival",
+    caption: "The quiet moment the brand sells. Golden hour, hand in hand, the island ahead.",
+  },
+  
   {
     heading: "The launch set",
     lead:
