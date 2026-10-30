@@ -177,9 +177,9 @@ export const PROJECTS: Project[] = [
   ],
 
   outcome: [
-    { label: "International Property Awards", value: "Apartment Development of the Year" },
-    { label: "International Property Awards", value: "Best Residential Development 20+ Units - 5-star" },
-    { label: "Prolific North Marketing Awards", value: "Best Property & Construction Campaign" },
+    { label: "International Property Awards", value: "Apartment of the Year" },
+    { label: "International Property Awards", value: "5-star, Best 20+ Units" },
+    { label: "Prolific North Marketing Awards", value: "Best Campaign" },
   ],
 
   role: [
@@ -219,7 +219,7 @@ export const PROJECTS: Project[] = [
       src: "/media/ops/slide5.webp",
       alt: "One Port Street Photography Direction",
       kind: "full",
-      title: "The address",
+      title: "The moodboard",
       caption:
         "Editorial style photography moodboard, direction",
     },
