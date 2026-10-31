@@ -175,7 +175,7 @@ export const PROJECTS: Project[] = [
   body: [
     "One Port Street started as an off-plan launch and followed the full Select Property cycle: sell, build, manage. ",
     "Underneath the site sat the full launch set: the launch identity, a printed sales brochure, flyers for local drops, floor plan sheets, social campaigns in static and film, construction-site hoardings and the digital banners that fed every landing page. One visual system, one set of masters, one standard for the CGI and photography.  Launched off-plan, sold through, built, and now fully tenanted and managed.",
-    "The project ran across a team of seven: two designers, a marketing head, a content manager, and three external partners. Clicky handled the digital marketing campaign. OurStudio produced the CGI. Freelance photographers covered the completed building shoot and lifestyle photography.",
+    "The project ran across a team of seven+: two designers, a marketing head, a content manager, and three external partners. Clicky handled the digital marketing campaign. OurStudio produced the CGI. Freelance photographers covered the completed building shoot and lifestyle photography.",
   ],
 
   outcome: [
@@ -423,9 +423,10 @@ export const PROJECTS: Project[] = [
     "Creative direction",
     "Photoshoot direction",
     "CGI and virtual tour direction",
-    "Web design",
+    "Web design and landing pages",
     "Build oversight",
     "Tech SEO and performance",
+    "Floor plans, brochures, spec documents"
     "Multilingual production",
   ],
   note: "Three markets, one release cycle",
@@ -443,7 +444,7 @@ export const PROJECTS: Project[] = [
   poster: "/media/vl/poster.webp",
   still: "/media/vl/still.webp",
   reel: [
-    { src: "/media/vl/i1.webp", alt: "Vita Living homepage, three-language launch site" },
+    { src: "/media/vl/ooh.webp", alt: "Vita Living OOH" },
     { src: "/media/vl/i2.webp", alt: "Apartment detail page with pricing and availability" },
     { src: "/media/vl/i3.webp", alt: "Enquiry journey tuned for investors and owner-occupiers" },
   ],
@@ -452,15 +453,15 @@ export const PROJECTS: Project[] = [
       src: "/media/vl/mob.webp",
       alt: "Circle Square development, Manchester",
       kind: "full",
-      title: "The building",
-      caption: "A completed Manchester development, launched into three markets inside one release cycle.",
+      title: "The Website",
+      caption: "Multilingual website in EN/AR/CN, developed from cocept to completion",
     },
     {
-      src: "/media/vl/gallery1.webp",
-      alt: "Apartment interior from the lifestyle shoot",
+      src: "/media/vl/campaign.webp",
+      alt: "Lead gen campaign",
       kind: "split",
-      title: "Interior",
-      caption: "Real spaces, honest finish, lit for how they are actually lived in.",
+      title: "Lead Gen",
+      caption: "Lead gen camppaign for organic and paid ads",
     },
     {
       src: "/media/vl/gallery2.webp",
@@ -522,7 +523,7 @@ export const PROJECTS: Project[] = [
       lead:
         "A small in-house team at Select Property, directed on film, shoot and build days alongside two agencies and one freelance partner.",
       bullets: [
-        "Head of Marketing and Marketing Manager, Select Property",
+        "Creative Director, Head of Marketing and Marketing Manager, Select Property",
         "Content Manager, Select Property",
         "Two designers on the delivery team",
         "Chain Reaction, marketing agency",
@@ -635,7 +636,7 @@ gallery: [
     alt: "60-second brand film: the pearl unfurls to reveal the residence",
     kind: "full",
     title: "Brand film",
-    caption: "From drawing concept to CGI",
+    caption: "Where luxury is quiet, nature is close, and time moves at your pace.",
   },
   {
     src: "/media/lulua/hoarding.webp",
