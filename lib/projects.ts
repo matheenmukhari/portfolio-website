@@ -426,7 +426,7 @@ export const PROJECTS: Project[] = [
     "Web design and landing pages",
     "Build oversight",
     "Tech SEO and performance",
-    "Floor plans, brochures, spec documents"
+    "Floor plans, brochures, spec documents",
     "Multilingual production",
   ],
   note: "Three markets, one release cycle",
