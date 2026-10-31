@@ -274,6 +274,28 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
         </div>
       </section>
 
+      {/* ---------------------- outcome strip — below hero -------------------- */}
+      {outcome.length > 0 && (
+        <section className="w-full bg-[#000] text-paper">
+          <div className="flex flex-col divide-y divide-paper/15 md:flex-row md:divide-x md:divide-y-0">
+            {outcome.map((stat) => (
+              <div
+                key={`${stat.label}-${stat.value}`}
+                className="flex flex-1 flex-col justify-center px-[var(--spacing-page)] py-8 md:py-10"
+              >
+                <p
+                  className="text-2xl md:text-3xl"
+                  style={{ fontFamily: "var(--font-serif)", fontVariationSettings: '"opsz" 32, "wght" 420' }}
+                >
+                  {stat.value}
+                </p>
+                <p className="mt-2 text-xs uppercase tracking-widest text-paper/60">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* ---------------------- chapter one: the frozen split ------------------ */}
       <div className="chapter-one relative z-[1] bg-paper">
         <section className="page-x grid grid-cols-12 gap-[var(--spacing-gutter)] pt-[12svh] pb-[14svh]">
@@ -413,7 +435,7 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
       </div>
 
       {/* --------------------------- the stage takes over ---------------------- */}
-      {(gallery.length > 0 || strip.length > 0 || outcome.length > 0) && (
+      {(gallery.length > 0 || strip.length > 0) && (
       <div className="stage relative z-[2] bg-stage text-paper">
         {gallery.length > 0 && (
         <>
@@ -512,23 +534,7 @@ export default function CaseStudy({ project, next }: { project: Project; next: P
         </section>
         )}
 
-        {/* Outcome. */}
-        {outcome.length > 0 && (
-        <section className="page-x grid grid-cols-12 gap-[var(--spacing-gutter)] border-t border-paper/15 py-[12svh]">
-          {outcome.map((stat) => (
-            <div key={stat.label} className="col-span-12 md:col-span-4">
-              <p
-                className={`stat-value tnum ${stat.value.length > 8 ? "type-h3" : "type-display"}`}
-                data-value={stat.value}
-                style={{ fontVariationSettings: '"opsz" 60, "wght" 420' }}
-              >
-                {stat.value}
-              </p>
-              <p className="type-micro mt-3 text-paper/60">{stat.label}</p>
-            </div>
-          ))}
-        </section>
-        )}
+
       </div>
       )}
 
