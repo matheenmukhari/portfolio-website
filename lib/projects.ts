@@ -365,7 +365,7 @@ export const PROJECTS: Project[] = [
     poster: "/media/sp/poster.webp",
     still: "/media/sp/slide1.webp",
     reel: [
-      { src: "/media/sp/wide.webp", alt: "Select Property homepage" },
+      { src: "/media/sp/landingpage.webp", alt: "Select Property homepage" },
       { src: "/media/sp/moodboard.webp", alt: "Mood board" },
       { src: "/media/sp/i3.webp", alt: "Investment guide" },
     ],
