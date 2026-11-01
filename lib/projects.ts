@@ -378,7 +378,7 @@ export const PROJECTS: Project[] = [
       { src: "/media/sp/social.webp", alt: "Social frames", kind: "split" },
     ],
     strip: [
-      { src: "/media/sp/slide1.webp", alt: "Homepage detail" },
+      { src: "/media/sp/i2.webp", alt: "Homepage detail" },
       { src: "/media/sp/i1.webp", alt: "Homepage detail" },
       { src: "/media/sp/slide1.webp", alt: "Homepage detail" },
       { src: "/media/sp/slide2.webp", alt: "Development index" },
