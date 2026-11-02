@@ -373,9 +373,18 @@ export const PROJECTS: Project[] = [
       { src: "/media/sp/screens.webp", alt: "Select Property site", kind: "full" },
       { src: "/media/sp/cs-billboard.webp", alt: "Development page", kind: "split" },
       { src: "/media/sp/tote.webp", alt: "Tote bag", kind: "split" },
+      {
+      src: "/media/sp/sp-billboard.mp4",
+      alt: "OOH",
+      kind: "full",
+      title: "The Billboards",
+      caption:
+        "Few selected OOH campaigns of Select Property developments",
+    },
       { src: "/media/sp/gallery3.webp", alt: "Group brand application", kind: "full" },
       { src: "/media/sp/social.mp4", alt: "Brand film", kind: "split" },
       { src: "/media/sp/social.webp", alt: "Social frames", kind: "split" },
+       
     ],
     strip: [
       { src: "/media/sp/i2.webp", alt: "Homepage detail" },
