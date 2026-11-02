@@ -76,8 +76,8 @@ export default function InfoPage() {
 
         <div className="info-row col-span-12 mt-[8svh] space-y-6 md:col-span-6 md:col-start-7">
           <p className="type-lead measure">
-            I am Matheen Bukhari, a creative manager based in Dubai. I lead a design team across the
-            UK, the Gulf and China, and I still build the things I direct.
+            I am Matheen Bukhari, a creative manager based in Dubai. I’m currently an independent Creative Lead working across Design, Branding, Advertising, and Culture. Before that, I spent 9+ amazing years at Select Property as Creative Manager.
+            Part of a amazing creative team across the UK, the Gulf and China. I am fortunate to work with top UAE firms like 👉🏽 Emaar, ITP Media Group and Juma Al Majid Group.
           </p>
           <div className="measure space-y-5">
             <p>
@@ -92,13 +92,6 @@ export default function InfoPage() {
               for Dubai Aquarium, Reel Cinemas, Dubai Ice Rink and their neighbours, each with its own
               audience inside one group identity. Since 2017 I have been at Select Property,
               first as a senior designer and now leading creative across the UK, the Gulf and Asia.
-            </p>
-            <p>
-              The part I have spent the last few years on is the part nobody photographs. Design
-              systems, asset libraries, briefing workflows, automated audits. When three regions want
-              the same design resource in the same week, the answer is rarely more oversight. It is
-              usually better systems and fewer things done by hand. So I build them, and I keep a
-              person on the approval before anything ships.
             </p>
             <p>
               I care about typography, about how fast a page loads, and about whether the sales team
