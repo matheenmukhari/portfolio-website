@@ -517,6 +517,7 @@ export const PROJECTS: Project[] = [
     { src: "/media/vl/slide1.webp",   alt: "Homepage detail" },
     { src: "/media/vl/color-pallete.webp",   alt: "Color Pallette" },
     { src: "/media/vl/slide2.webp",   alt: "Apartment listing" },
+    { src: "/media/vl/photoshoot.webp",   alt: "Apartment Photoshoot" },
     { src: "/media/vl/slide3.webp",   alt: "Language version" },
     { src: "/media/vl/slide4.webp",   alt: "Floor plan view" },
     { src: "/media/vl/slide5.webp",   alt: "Investment detail" },
