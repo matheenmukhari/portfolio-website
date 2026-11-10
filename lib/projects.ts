@@ -904,6 +904,7 @@ details: [
     reel: [
       { src: "/media/konfianz/logos.webp", alt: "Konfianz logo and brand mark" },
       { src: "/media/konfianz/mateo.webp", alt: "Konfianz brand application" },
+      { src: "/media/konfianz/poster.webp", alt: "Konfianz AI images" },
     ],
     gallery: [
       { src: "/media/konfianz/wing.webp", alt: "Konfianz brand identity system", kind: "full" },
