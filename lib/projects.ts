@@ -238,6 +238,14 @@ export const PROJECTS: Project[] = [
         "Slow Cinematic Camera Drift viideo creation using CGIs",
     },
     {
+      src: "/media/ops/nq.webp",
+      alt: "Northern Quarter",
+      kind: "full",
+      title: "Northern Quarter street life",
+      caption:
+        "We didn't sell the apartment. We sold the street.",
+    },
+    {
       src: "/media/ops/gallery1.webp",
       alt: "Apartment interior",
       kind: "split",
@@ -866,6 +874,47 @@ details: [
     ],
   },
 
+    {
+    slug: "konfianz",
+    title: "Konfianz",
+    client: "Digital services",
+    year: "2024",
+    place: "Dubai",
+    categories: ["Brand & Identity", "Websites & Digital"],
+    tags: ["Brand identity", "Web design", "Art direction"],
+    featured: false,
+    summary:
+      "Brand identity and website for a senior-led creative and digital studio serving property developers.",
+    brief:
+      "A studio that speaks to developers, *not other agencies.*",
+    body: [
+      "Konfianz is a consulting practice built around one question: what does a property developer actually need from a creative partner? Not a rebrand every quarter. Not a sixty-page strategy deck. A launch campaign that lands, a website that converts, and someone senior enough to make the calls without a chain of approvals.",
+      "The brand had to signal seniority and substance without sliding into corporate stiffness. The name, the mark, the site - everything is direct, confident and intentionally spare. The portfolio does the talking; the copy just opens the door.",
+      "I designed the identity, wrote the positioning, and built the site end to end - from brand strategy through to a live Next.js build. The 4-step process - Brief, Produce, Check, Launch - mirrors how the studio actually works with clients.",
+    ],
+    role: ["Brand strategy", "Identity design", "Web design", "Front-end build", "Copywriting"],
+    note: "Senior-led, not agency-shaped",
+    points: [
+      "Positioning for property developers and brokers specifically",
+      "4-step delivery process baked into the brand narrative",
+      "End-to-end from naming through to live site",
+    ],
+    link: "https://konfianz.com/",
+    poster: "/media/konfianz/poster.webp",
+    still: "/media/konfianz/web.webp",
+    reel: [
+      { src: "/media/konfianz/logos.webp", alt: "Konfianz logo and brand mark" },
+      { src: "/media/konfianz/screens.webp", alt: "Konfianz website screens" },
+      { src: "/media/konfianz/mateo.webp", alt: "Konfianz brand application" },
+    ],
+    gallery: [
+      { src: "/media/konfianz/wing.webp", alt: "Konfianz brand identity system", kind: "full" },
+      { src: "/media/konfianz/ice.webp", alt: "Konfianz visual direction", kind: "split" },
+      { src: "/media/konfianz/web.webp", alt: "Konfianz website detail", kind: "split" },
+      { src: "/media/konfianz/logos.webp", alt: "Konfianz logo variations", kind: "full" },
+    ],
+  },
+
   {
     slug: "mydubaiproperty",
     title: "mydubaiproperty.ae",
@@ -926,15 +975,24 @@ details: [
   gallery: [
     { src: "/media/ai-images/tower-before.webp", alt: "Manchester tower, Original drone shot and The same tower at golden hour", kind: "full",
       title: "Before", caption: "Original drone shot. Flat sky, flat light." },
+    
+    { src: "/media/ai-images/ice.webp", alt: "Ice girl", kind: "full",
+      title: "Ice in her gaze. Fire in her spirit.", caption: "Created from GPT6 Astra" },
+
+    { src: "/media/ai-images/swimming-pool.webp", alt: "Lifestyle swimming pool", kind: "full",
+      title: "Lifestyle swimming pool", caption: "Realistic human elements with a double exposure effect" },
+
+      { src: "/media/ai-images/girl.webp", alt: "Lifestyle swimming pool", kind: "half",
+      title: "Peacock feather in plum chiaroscuro", caption: "Close-up editorial shot created from GPT6 Astra" },
+
+      { src: "/media/ai-images/blush.mp4", alt: "Blush", kind: "half",
+      title: "No studio. No crew. No shoot. Just GPT and Google Flow.", caption: "THE BLUSH concept product shoot" },
 
     { src: "/media/ai-images/apartment-before.webp", alt: "Apartment with basic rental staging and apartment restaged as a luxury home ", kind: "full",
       title: "Before", caption: "Basic rental staging." },
 
     { src: "/media/ai-images/car-moodboard.webp", alt: "One car shown in five campaign directions", kind: "full",
       title: "One car, five campaigns", caption: "One studio side profile, five directions. Concept work." },
-
-    { src: "/media/ai-images/swimming-pool.webp", alt: "Lifestyle swimming pool", kind: "full",
-      title: "Lifestyle swimming pool", caption: "Realistic human elements with a double exposure effect" },
 
     { src: "/media/ai-images/etihad-rail.webp", alt: "Concept billboard for Etihad Rail: a train breaking out through a tunnel in the frame", kind: "full",
       title: "Billboard concept, Etihad Rail", caption: "The train breaks out of the board. Concept work." },
