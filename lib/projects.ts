@@ -982,10 +982,10 @@ details: [
     { src: "/media/ai-images/swimming-pool.webp", alt: "Lifestyle swimming pool", kind: "full",
       title: "Lifestyle swimming pool", caption: "Realistic human elements with a double exposure effect" },
 
-      { src: "/media/ai-images/girl.webp", alt: "Lifestyle swimming pool", kind: "half",
+      { src: "/media/ai-images/girl.webp", alt: "Lifestyle swimming pool", kind: "split",
       title: "Peacock feather in plum chiaroscuro", caption: "Close-up editorial shot created from GPT6 Astra" },
 
-      { src: "/media/ai-images/blush.mp4", alt: "Blush", kind: "half",
+      { src: "/media/ai-images/blush.mp4", alt: "Blush", kind: "split",
       title: "No studio. No crew. No shoot. Just GPT and Google Flow.", caption: "THE BLUSH concept product shoot" },
 
     { src: "/media/ai-images/apartment-before.webp", alt: "Apartment with basic rental staging and apartment restaged as a luxury home ", kind: "full",
