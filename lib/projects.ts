@@ -889,7 +889,6 @@ details: [
       "A studio that speaks to developers, *not other agencies.*",
     body: [
       "Konfianz is a consulting practice built around one question: what does a property developer actually need from a creative partner? Not a rebrand every quarter. Not a sixty-page strategy deck. A launch campaign that lands, a website that converts, and someone senior enough to make the calls without a chain of approvals.",
-      "The brand had to signal seniority and substance without sliding into corporate stiffness. The name, the mark, the site - everything is direct, confident and intentionally spare. The portfolio does the talking; the copy just opens the door.",
       "I designed the identity, wrote the positioning, and built the site end to end - from brand strategy through to a live Next.js build. The 4-step process - Brief, Produce, Check, Launch - mirrors how the studio actually works with clients.",
     ],
     role: ["Brand strategy", "Identity design", "Web design", "Front-end build", "Copywriting"],
@@ -900,18 +899,17 @@ details: [
       "End-to-end from naming through to live site",
     ],
     link: "https://konfianz.com/",
-    poster: "/media/konfianz/poster.webp",
+    poster: "/media/konfianz/screens.webp",
     still: "/media/konfianz/web.webp",
     reel: [
       { src: "/media/konfianz/logos.webp", alt: "Konfianz logo and brand mark" },
-      { src: "/media/konfianz/screens.webp", alt: "Konfianz website screens" },
       { src: "/media/konfianz/mateo.webp", alt: "Konfianz brand application" },
     ],
     gallery: [
       { src: "/media/konfianz/wing.webp", alt: "Konfianz brand identity system", kind: "full" },
       { src: "/media/konfianz/ice.webp", alt: "Konfianz visual direction", kind: "split" },
-      { src: "/media/konfianz/web.webp", alt: "Konfianz website detail", kind: "split" },
-      { src: "/media/konfianz/logos.webp", alt: "Konfianz logo variations", kind: "full" },
+      { src: "/media/konfianz/poster.webp", alt: "Konfianz website detail", kind: "split" },
+      { src: "/media/konfianz/web.webp", alt: "Konfianz website", kind: "full" },
     ],
   },
 
@@ -981,12 +979,14 @@ details: [
 
     { src: "/media/ai-images/swimming-pool.webp", alt: "Lifestyle swimming pool", kind: "full",
       title: "Lifestyle swimming pool", caption: "Realistic human elements with a double exposure effect" },
-
+  
+      { src: "/media/ai-images/blush.mp4", alt: "Blush", kind: "split",
+      title: "No studio. No crew. No shoot. Just GPT and Google Flow.", caption: "THE BLUSH concept product shoot" },
+  
       { src: "/media/ai-images/girl.webp", alt: "Lifestyle swimming pool", kind: "split",
       title: "Peacock feather in plum chiaroscuro", caption: "Close-up editorial shot created from GPT6 Astra" },
 
-      { src: "/media/ai-images/blush.mp4", alt: "Blush", kind: "split",
-      title: "No studio. No crew. No shoot. Just GPT and Google Flow.", caption: "THE BLUSH concept product shoot" },
+   
 
     { src: "/media/ai-images/apartment-before.webp", alt: "Apartment with basic rental staging and apartment restaged as a luxury home ", kind: "full",
       title: "Before", caption: "Basic rental staging." },
