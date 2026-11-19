@@ -13,6 +13,20 @@ import { accents } from "@/lib/text";
 
 function renderMedia(item: MediaItem, className?: string) {
   const { src, alt, poster } = item;
+  if (src.includes("youtube.com/embed")) {
+    return (
+      <div className={`relative w-full ${className ?? ""}`} style={{ aspectRatio: "16/9" }}>
+        <iframe
+          src={src}
+          title={alt}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="absolute inset-0 h-full w-full"
+          style={{ border: 0 }}
+        />
+      </div>
+    );
+  }
   if (src.endsWith(".mp4") || src.endsWith(".webm")) {
     return (
       <video

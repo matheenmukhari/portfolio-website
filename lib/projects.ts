@@ -972,6 +972,7 @@ details: [
   // TODO: if any Select Property images are included, add: credits: "Select Property imagery shown with permission"
   poster: "/media/ai-images/poster.webp",
   gallery: [
+    { src: "https://www.youtube.com/embed/nHVOJdWaTlE", alt: "AI-generated imagery showreel", kind: "full", title: "Showreel" },
     { src: "/media/ai-images/tower-before.webp", alt: "Manchester tower, Original drone shot and The same tower at golden hour", kind: "full",
       title: "Before", caption: "Original drone shot. Flat sky, flat light." },
     
