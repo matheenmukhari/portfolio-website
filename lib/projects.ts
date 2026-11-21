@@ -983,7 +983,7 @@ details: [
       title: "Peacock feather in plum chiaroscuro", caption: "Close-up editorial shot created from GPT6 Astra" }, 
 
       { src: "https://www.youtube.com/embed/ltoJu6PruHQ", alt: "Interactive floorplan", kind: "full", title: "No more boring floorplans" },
-    { src: "/media/ai-images/tower-before.webp", alt: Floor plans are boring. Buyers have to guess what the home feels like.", kind: "full",
+    { src: "/media/ai-images/tower-before.webp", alt: "Floor plans are boring. Buyers have to guess what the home feels like.", kind: "full",
       title: "Before", caption: "Floor plans are boring. Buyers have to guess what the home feels like." },
     
     { src: "/media/ai-images/ice.webp", alt: "Ice girl", kind: "full",
