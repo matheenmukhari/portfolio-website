@@ -975,21 +975,31 @@ details: [
     { src: "https://www.youtube.com/embed/nHVOJdWaTlE", alt: "AI-generated imagery showreel", kind: "full", title: "Showreel" },
     { src: "/media/ai-images/tower-before.webp", alt: "Manchester tower, Original drone shot and The same tower at golden hour", kind: "full",
       title: "Before", caption: "Original drone shot. Flat sky, flat light." },
-    
-    { src: "/media/ai-images/ice.webp", alt: "Ice girl", kind: "full",
-      title: "Ice in her gaze. Fire in her spirit.", caption: "Created from GPT6 Astra" },
 
-    { src: "/media/ai-images/swimming-pool.webp", alt: "Lifestyle swimming pool", kind: "full",
-      title: "Lifestyle swimming pool", caption: "Realistic human elements with a double exposure effect" },
-  
       { src: "/media/ai-images/blush.mp4", alt: "Blush", kind: "split",
       title: "No studio. No crew. No shoot. Just GPT and Google Flow.", caption: "THE BLUSH concept product shoot" },
   
       { src: "/media/ai-images/girl.webp", alt: "Lifestyle swimming pool", kind: "split",
-      title: "Peacock feather in plum chiaroscuro", caption: "Close-up editorial shot created from GPT6 Astra" },
+      title: "Peacock feather in plum chiaroscuro", caption: "Close-up editorial shot created from GPT6 Astra" }, 
+
+      { src: "https://www.youtube.com/embed/ltoJu6PruHQ", alt: "Interactive floorplan", kind: "full", title: "No more boring floorplans" },
+    { src: "/media/ai-images/tower-before.webp", alt: Floor plans are boring. Buyers have to guess what the home feels like.", kind: "full",
+      title: "Before", caption: "Floor plans are boring. Buyers have to guess what the home feels like." },
+    
+    { src: "/media/ai-images/ice.webp", alt: "Ice girl", kind: "full",
+      title: "Ice in her gaze. Fire in her spirit.", caption: "Created from GPT6 Astra" },
+
+     { src: "/media/ai-images/father1.webp", alt: "Father", kind: "split",
+      title: "Visual story telling", caption: "Visual story telling" },
+  
+      { src: "/media/ai-images/father2.webp", alt: "Father daughter", kind: "split",
+      title: "Visual story telling", caption: "Visual story telling created from GPT6 Astra" },
 
    
-
+    { src: "/media/ai-images/swimming-pool.webp", alt: "Lifestyle swimming pool", kind: "full",
+      title: "Lifestyle swimming pool", caption: "Realistic human elements with a double exposure effect" },
+  
+     
     { src: "/media/ai-images/apartment-before.webp", alt: "Apartment with basic rental staging and apartment restaged as a luxury home ", kind: "full",
       title: "Before", caption: "Basic rental staging." },
 
